@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "stems": {
+    "voice": "audio/stems/voice.wav",
+    "music": "audio/stems/music.wav",
+    "sfx": "audio/stems/sfx.wav",
+    "ambience": "audio/stems/ambience.wav"
+  },
+  "baselineStems": {
+    "voice": "ea9ffb888958fe6ebf965d3a631dbec156c4f428565c07755154b044cf273e62",
+    "music": "324984dac2e6ee699108b1ed7739657b756e54964ddf57ae241eed0527e27e3f",
+    "sfx": "83155edf726790fdf853406a9b4240544f3684d4c8f6f0f3af912f1be435dad2",
+    "ambience": "844c92085dda9f73303ff8cbd4a8ab46efe8723b4530fa8c0019bc7414111043"
+  },
+  "baselineMaster": "audio/master.wav",
+  "baselineMasterSHA256": "",
+  "protectedRanges": [],
+  "duckWhenMasked": false,
+  "cues": []
+}

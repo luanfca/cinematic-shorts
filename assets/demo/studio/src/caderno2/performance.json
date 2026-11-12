@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "mouthMode": "rms",
+  "scope": "Word-preview is optional and approximate; manual viseme cues may use actual phonetic timing. No random mouth movement.",
+  "shots": {
+    "S27": [
+      {
+        "at": 0,
+        "headTilt": 0,
+        "look": 0
+      },
+      {
+        "at": 0.5,
+        "headTilt": -1.5,
+        "look": 0.08,
+        "armRB": -3
+      },
+      {
+        "at": 1,
+        "headTilt": -0.5,
+        "look": 0
+      }
+    ]
+  },
+  "visemeCues": []
+}

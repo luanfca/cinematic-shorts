@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "scope": "Small deltas on the existing connected rig; no arm props added",
+  "presets": {
+    "confident": [
+      {
+        "at": 0,
+        "headTilt": 0,
+        "look": 0
+      },
+      {
+        "at": 0.45,
+        "headTilt": -1.5,
+        "look": 0.08,
+        "armRB": -3
+      },
+      {
+        "at": 1,
+        "headTilt": -0.5,
+        "look": 0.04
+      }
+    ],
+    "shock": [
+      {
+        "at": 0,
+        "headTilt": 0
+      },
+      {
+        "at": 0.25,
+        "headTilt": 1.5,
+        "look": -0.1,
+        "yaw": -0.015
+      },
+      {
+        "at": 1,
+        "headTilt": 0.6,
+        "look": -0.04
+      }
+    ],
+    "coldAuthority": [
+      {
+        "at": 0,
+        "headTilt": 0
+      },
+      {
+        "at": 0.6,
+        "headTilt": -0.6,
+        "look": 0.03
+      },
+      {
+        "at": 1,
+        "headTilt": 0
+      }
+    ],
+    "containedTriumph": [
+      {
+        "at": 0,
+        "headTilt": 0
+      },
+      {
+        "at": 0.5,
+        "headTilt": -1.3,
+        "look": 0.06,
+        "armRB": -2
+      },
+      {
+        "at": 1,
+        "headTilt": -0.4
+      }
+    ]
+  }
+}

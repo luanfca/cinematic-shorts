@@ -1,0 +1,1 @@
+import React from 'react';import {registerRoot,Composition}from 'remotion';import{Film}from './caderno2/Film';import TL from './caderno2/timeline.json';registerRoot(()=> <Composition id="CadernoParte2" component={Film}width={1080}height={1920}fps={30}durationInFrames={TL.total}/>);

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Shorts Studio"
+  short_description: "Vídeos narrativos com Remotion, áudio e QA local"
+  default_prompt: "Use $cinematic-shorts para criar um vídeo narrativo em português com animação, voz e validação."

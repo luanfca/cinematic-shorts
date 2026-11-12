@@ -1,0 +1,25 @@
+{
+  "format": "SKILL.md + agents/openai.yaml",
+  "version": "1.0.0-portable",
+  "functionalCheckGroups": 10,
+  "platformTested": "Windows",
+  "demo": {
+    "frames": 93,
+    "duration": 3.1,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "sampleRate": 48000
+  },
+  "compiledEdit": {
+    "frames": 161,
+    "duration": 5.366666666666666,
+    "ASRWords": 5
+  },
+  "liveProviderCalls": 0,
+  "newImagesOpened": 0,
+  "freshNetworkInstallationTested": false,
+  "crossPlatformExecutionTested": false
+}

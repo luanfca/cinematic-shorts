@@ -1,0 +1,18 @@
+{
+  "provenance": "Installed Windows dependency graph; not a cross-platform clean-install certification",
+  "direct": {
+    "remotion": "4.0.530",
+    "@remotion/bundler": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/player": "4.0.530",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "playwright": "1.61.1",
+    "typescript": "5.8.2",
+    "@types/react": "19.0.0"
+  },
+  "testedPlatform": "Windows",
+  "python": "3.12",
+  "numpy": "2.3.5",
+  "dependencyResolution": "Direct dependencies pinned. First recipient install resolves transitives and creates its own project lockfile. Clean installation was not performed without internet."
+}

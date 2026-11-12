@@ -1,0 +1,16 @@
+{
+  "name": "cinematic-shorts-project",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "remotion": "4.0.530",
+    "@remotion/bundler": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/player": "4.0.530",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "playwright": "1.61.1",
+    "typescript": "5.8.2",
+    "@types/react": "19.0.0"
+  }
+}

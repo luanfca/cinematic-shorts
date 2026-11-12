@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "language": "pt-BR",
+  "roles": {
+    "lucas": {
+      "voice": "Fenrir",
+      "model": "gemini-3.8-flash-tts",
+      "reference": "profiles/references/lucas.wav",
+      "defaultStyle": "Brazilian Portuguese. Preserve the approved youthful male timbre, natural breath and controlled delivery.",
+      "emotions": {
+        "determined": "Confident, contained certainty.",
+        "worried": "Psychological tension, subtle insecurity; no forced whisper.",
+        "cold": "Calm, exact and mysterious.",
+        "smug": "Controlled triumph; avoid cartoon villain exaggeration.",
+        "neutral": "Natural articulation and stable vocal identity."
+      },
+      "noAutomaticModelFallback": true,
+      "noPitchOrSpeedWarp": true,
+      "margins": {
+        "headSeconds": 0.25,
+        "tailSeconds": 0.3,
+        "keepNaturalBreaths": true
+      }
+    },
+    "narr": {
+      "voice": "Charon",
+      "model": "gemini-3.8-flash-tts",
+      "reference": "profiles/references/narr.wav",
+      "defaultStyle": "Brazilian Portuguese. Dark cinematic narration, clear complete diction and coherent pauses.",
+      "emotions": {
+        "determined": "Confident, contained certainty.",
+        "worried": "Psychological tension, subtle insecurity; no forced whisper.",
+        "cold": "Calm, exact and mysterious.",
+        "smug": "Controlled triumph; avoid cartoon villain exaggeration.",
+        "neutral": "Natural articulation and stable vocal identity."
+      },
+      "noAutomaticModelFallback": true,
+      "noPitchOrSpeedWarp": true,
+      "margins": {
+        "headSeconds": 0.25,
+        "tailSeconds": 0.3,
+        "keepNaturalBreaths": true
+      }
+    },
+    "anchor": {
+      "voice": "Kore",
+      "model": "gemini-3.8-flash-tts",
+      "reference": "profiles/references/anchor.wav",
+      "defaultStyle": "Brazilian Portuguese. Credible television journalist, precise diction and measured delivery.",
+      "emotions": {
+        "determined": "Confident, contained certainty.",
+        "worried": "Psychological tension, subtle insecurity; no forced whisper.",
+        "cold": "Calm, exact and mysterious.",
+        "smug": "Controlled triumph; avoid cartoon villain exaggeration.",
+        "neutral": "Natural articulation and stable vocal identity."
+      },
+      "noAutomaticModelFallback": true,
+      "noPitchOrSpeedWarp": true,
+      "margins": {
+        "headSeconds": 0.25,
+        "tailSeconds": 0.3,
+        "keepNaturalBreaths": true
+      }
+    },
+    "fake": {
+      "voice": "Orus",
+      "model": "gemini-3.8-flash-tts",
+      "reference": "profiles/references/fake.wav",
+      "defaultStyle": "Brazilian Portuguese. Firm and provocative authority without artificial yelling.",
+      "emotions": {
+        "determined": "Confident, contained certainty.",
+        "worried": "Psychological tension, subtle insecurity; no forced whisper.",
+        "cold": "Calm, exact and mysterious.",
+        "smug": "Controlled triumph; avoid cartoon villain exaggeration.",
+        "neutral": "Natural articulation and stable vocal identity."
+      },
+      "noAutomaticModelFallback": true,
+      "noPitchOrSpeedWarp": true,
+      "margins": {
+        "headSeconds": 0.25,
+        "tailSeconds": 0.3,
+        "keepNaturalBreaths": true
+      }
+    },
+    "real": {
+      "voice": "Sadaltager",
+      "model": "gemini-3.8-flash-tts",
+      "reference": "profiles/references/real.wav",
+      "defaultStyle": "Brazilian Portuguese. Cold, intelligent and precise; authority through calm, strategic pauses.",
+      "emotions": {
+        "determined": "Confident, contained certainty.",
+        "worried": "Psychological tension, subtle insecurity; no forced whisper.",
+        "cold": "Calm, exact and mysterious.",
+        "smug": "Controlled triumph; avoid cartoon villain exaggeration.",
+        "neutral": "Natural articulation and stable vocal identity."
+      },
+      "noAutomaticModelFallback": true,
+      "noPitchOrSpeedWarp": true,
+      "margins": {
+        "headSeconds": 0.25,
+        "tailSeconds": 0.3,
+        "keepNaturalBreaths": true
+      }
+    }
+  },
+  "scope": "Canonical references; metrics are review aids, not perceptual identity certification"
+}

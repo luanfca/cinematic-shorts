@@ -1,0 +1,27 @@
+{
+  "fps": 30,
+  "total": 93,
+  "duration": 3.1,
+  "shots": [
+    {
+      "id": "S26",
+      "a": 0,
+      "b": 31,
+      "mode": "close",
+      "line": "L22",
+      "scene": 7,
+      "who": "lucas",
+      "emotion": "shock"
+    },
+    {
+      "id": "S27",
+      "a": 31,
+      "b": 93,
+      "mode": "close",
+      "line": "L23",
+      "scene": 7,
+      "who": "lucas",
+      "emotion": "laugh"
+    }
+  ]
+}

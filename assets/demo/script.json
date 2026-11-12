@@ -1,0 +1,44 @@
+{
+  "voices": {
+    "narr": {
+      "voice": "Charon",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "lucas": {
+      "voice": "Fenrir",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "anchor": {
+      "voice": "Kore",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "fake": {
+      "voice": "Orus",
+      "model": "gemini-3.8-flash-tts"
+    },
+    "real": {
+      "voice": "Sadaltager",
+      "model": "gemini-3.8-flash-tts"
+    }
+  },
+  "lines": [
+    {
+      "id": "L22",
+      "who": "lucas",
+      "scene": 7,
+      "mode": "close",
+      "text": "<gasp> Funcionou...",
+      "style": "Brief shock, relieved involuntary triumph.",
+      "emotion": "shock"
+    },
+    {
+      "id": "L23",
+      "who": "lucas",
+      "scene": 7,
+      "mode": "close",
+      "text": "<chuckle> Eu sabia!",
+      "style": "Short natural triumphant chuckle, controlled and self-satisfied.",
+      "emotion": "laugh"
+    }
+  ]
+}

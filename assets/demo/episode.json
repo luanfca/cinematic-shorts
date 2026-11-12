@@ -1,0 +1,47 @@
+{
+  "id": "demo",
+  "studio": "studio",
+  "composition": "CadernoParte2",
+  "master": "audio/master.wav",
+  "browser": "",
+  "quality": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audioSampleRate": 48000,
+    "audioBitrate": 192000,
+    "crf": 17,
+    "chunkCache": "ffv1-lossless-rgb",
+    "loudnessTargetLUFS": -14,
+    "truePeakReferenceDBTP": -1.5
+  },
+  "voices": {
+    "L22": {
+      "identity": "1da6df47cfd393c7da2e3e67731fd4fa7590dfedb596aa09080ba7051c5bccf1",
+      "path": "audio/voices/L22.wav",
+      "sha256": "6764f472409c83a7f1fd58982d954a883b996a188c3a79e087e65cef84725d91",
+      "source": "approved-revised-voice-stem",
+      "preRollSeconds": 0,
+      "alignment": "audio/voices/L22.words.json",
+      "slotAligned": true
+    },
+    "L23": {
+      "identity": "898b3e38a204443cbf2e54142159df042f794cfb24571f322b316b90e073eba9",
+      "path": "audio/voices/L23.wav",
+      "sha256": "ecd1f571b5b7fd86fa0a91bf83ea19e1e41632ecb992eb586855e82a7910f783",
+      "source": "approved-revised-voice-stem",
+      "preRollSeconds": 0,
+      "alignment": "audio/voices/L23.words.json",
+      "slotAligned": true
+    }
+  },
+  "runtime": {
+    "remotion": "4.0.530",
+    "react": "19.0.0",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/bundler": "4.0.530"
+  },
+  "audioBinding": "1d2953025c6ec3ef2ec09ae490ba610cd0556c470f8d17023ccc9e7583e72582",
+  "futureVersion": "1.1",
+  "soundBinding": "1ac8b8c2c502b78e186fe89e2e9a2c68cd206534f7f8bf88042ca779d2f2bb2f"
+}

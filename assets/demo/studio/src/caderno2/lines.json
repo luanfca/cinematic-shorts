@@ -1,0 +1,1782 @@
+[
+  {
+    "line": "L01",
+    "matchedFraction": 1.0,
+    "duration": 6.28,
+    "words": [
+      {
+        "w": "E",
+        "s": 0,
+        "e": 0.42,
+        "probability": 0.682
+      },
+      {
+        "w": "se",
+        "s": 0.42,
+        "e": 0.52,
+        "probability": 0.927
+      },
+      {
+        "w": "você",
+        "s": 0.52,
+        "e": 0.74,
+        "probability": 0.997
+      },
+      {
+        "w": "tivesse",
+        "s": 0.74,
+        "e": 1.08,
+        "probability": 0.985
+      },
+      {
+        "w": "o",
+        "s": 1.08,
+        "e": 1.26,
+        "probability": 0.989
+      },
+      {
+        "w": "poder",
+        "s": 1.26,
+        "e": 1.6,
+        "probability": 0.999
+      },
+      {
+        "w": "de",
+        "s": 1.6,
+        "e": 1.98,
+        "probability": 0.984
+      },
+      {
+        "w": "decidir",
+        "s": 1.98,
+        "e": 2.46,
+        "probability": 0.997
+      },
+      {
+        "w": "quem",
+        "s": 2.46,
+        "e": 2.76,
+        "probability": 0.969
+      },
+      {
+        "w": "merece",
+        "s": 2.76,
+        "e": 3.36,
+        "probability": 0.991
+      },
+      {
+        "w": "viver",
+        "s": 3.36,
+        "e": 3.76,
+        "probability": 0.999
+      },
+      {
+        "w": "e",
+        "s": 3.76,
+        "e": 4.98,
+        "probability": 0.429
+      },
+      {
+        "w": "quem",
+        "s": 4.98,
+        "e": 5.16,
+        "probability": 0.987
+      },
+      {
+        "w": "deve",
+        "s": 5.16,
+        "e": 5.46,
+        "probability": 0.997
+      },
+      {
+        "w": "morrer,",
+        "s": 5.46,
+        "e": 6.1,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "line": "L02",
+    "matchedFraction": 1.0,
+    "duration": 5.36,
+    "words": [
+      {
+        "w": "depois",
+        "s": 0.12,
+        "e": 0.42,
+        "probability": 0.976
+      },
+      {
+        "w": "de",
+        "s": 0.42,
+        "e": 0.6,
+        "probability": 0.998
+      },
+      {
+        "w": "descobrir",
+        "s": 0.6,
+        "e": 0.98,
+        "probability": 0.987
+      },
+      {
+        "w": "que",
+        "s": 0.98,
+        "e": 1.24,
+        "probability": 0.996
+      },
+      {
+        "w": "o",
+        "s": 1.24,
+        "e": 1.34,
+        "probability": 0.997
+      },
+      {
+        "w": "caderno",
+        "s": 1.34,
+        "e": 1.82,
+        "probability": 0.972
+      },
+      {
+        "w": "realmente",
+        "s": 1.82,
+        "e": 2.42,
+        "probability": 0.997
+      },
+      {
+        "w": "funcionava,",
+        "s": 2.42,
+        "e": 3.24,
+        "probability": 0.997
+      },
+      {
+        "w": "Lucas",
+        "s": 3.92,
+        "e": 4.18,
+        "probability": 0.865
+      },
+      {
+        "w": "tomou",
+        "s": 4.18,
+        "e": 4.58,
+        "probability": 0.997
+      },
+      {
+        "w": "uma",
+        "s": 4.58,
+        "e": 4.72,
+        "probability": 0.99
+      },
+      {
+        "w": "decisão.",
+        "s": 4.72,
+        "e": 5.18,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "line": "L04",
+    "matchedFraction": 1.0,
+    "duration": 3.22,
+    "words": [
+      {
+        "w": "E",
+        "s": 0.12,
+        "e": 0.4,
+        "probability": 0.338
+      },
+      {
+        "w": "então,",
+        "s": 0.4,
+        "e": 0.72,
+        "probability": 0.887
+      },
+      {
+        "w": "ele",
+        "s": 1.32,
+        "e": 1.76,
+        "probability": 0.983
+      },
+      {
+        "w": "escreveu",
+        "s": 1.76,
+        "e": 2.32,
+        "probability": 0.996
+      },
+      {
+        "w": "outro",
+        "s": 2.32,
+        "e": 2.66,
+        "probability": 0.71
+      },
+      {
+        "w": "nome.",
+        "s": 2.66,
+        "e": 3.04,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "line": "L05",
+    "matchedFraction": 1.0,
+    "duration": 3.52,
+    "words": [
+      {
+        "w": "Nos",
+        "s": 0.12,
+        "e": 0.3,
+        "probability": 0.942
+      },
+      {
+        "w": "dias",
+        "s": 0.3,
+        "e": 0.5,
+        "probability": 0.999
+      },
+      {
+        "w": "seguintes,",
+        "s": 0.5,
+        "e": 1.06,
+        "probability": 0.995
+      },
+      {
+        "w": "outros",
+        "s": 1.44,
+        "e": 1.64,
+        "probability": 0.999
+      },
+      {
+        "w": "criminosos",
+        "s": 1.64,
+        "e": 2.22,
+        "probability": 0.993
+      },
+      {
+        "w": "começaram",
+        "s": 2.22,
+        "e": 2.82,
+        "probability": 0.996
+      },
+      {
+        "w": "a",
+        "s": 2.82,
+        "e": 2.9,
+        "probability": 0.997
+      },
+      {
+        "w": "morrer,",
+        "s": 2.9,
+        "e": 3.34,
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "line": "L06",
+    "matchedFraction": 1.0,
+    "duration": 4.22,
+    "words": [
+      {
+        "w": "todos",
+        "s": 0.12,
+        "e": 0.56,
+        "probability": 0.957
+      },
+      {
+        "w": "da",
+        "s": 0.56,
+        "e": 0.9,
+        "probability": 0.994
+      },
+      {
+        "w": "mesma",
+        "s": 0.9,
+        "e": 1.26,
+        "probability": 0.999
+      },
+      {
+        "w": "maneira.",
+        "s": 1.26,
+        "e": 1.68,
+        "probability": 0.999
+      },
+      {
+        "w": "Ataque",
+        "s": 2.82,
+        "e": 3.62,
+        "probability": 0.663
+      },
+      {
+        "w": "Cardíaco",
+        "s": 3.62,
+        "e": 4.22,
+        "probability": 0.862
+      }
+    ]
+  },
+  {
+    "line": "L08",
+    "matchedFraction": 1.0,
+    "duration": 7.62,
+    "words": [
+      {
+        "w": "Na",
+        "s": 0,
+        "e": 0.9,
+        "probability": 0.608
+      },
+      {
+        "w": "internet,",
+        "s": 0.9,
+        "e": 1.3,
+        "probability": 0.851
+      },
+      {
+        "w": "algumas",
+        "s": 1.86,
+        "e": 2.14,
+        "probability": 0.998
+      },
+      {
+        "w": "pessoas",
+        "s": 2.14,
+        "e": 2.52,
+        "probability": 0.999
+      },
+      {
+        "w": "começaram",
+        "s": 2.52,
+        "e": 3.08,
+        "probability": 0.99
+      },
+      {
+        "w": "a",
+        "s": 3.08,
+        "e": 3.18,
+        "probability": 0.982
+      },
+      {
+        "w": "chamar",
+        "s": 3.18,
+        "e": 3.58,
+        "probability": 0.987
+      },
+      {
+        "w": "o",
+        "s": 3.58,
+        "e": 3.64,
+        "probability": 0.975
+      },
+      {
+        "w": "responsável",
+        "s": 3.64,
+        "e": 4.36,
+        "probability": 0.991
+      },
+      {
+        "w": "por",
+        "s": 4.36,
+        "e": 4.56,
+        "probability": 0.994
+      },
+      {
+        "w": "essas",
+        "s": 4.56,
+        "e": 4.72,
+        "probability": 0.98
+      },
+      {
+        "w": "mortes",
+        "s": 4.72,
+        "e": 5.56,
+        "probability": 0.989
+      },
+      {
+        "w": "de",
+        "s": 5.56,
+        "e": 5.94,
+        "probability": 0.582
+      },
+      {
+        "w": "Kira.",
+        "s": 5.94,
+        "e": 7.44,
+        "probability": 0.58
+      }
+    ]
+  },
+  {
+    "line": "L03",
+    "matchedFraction": 1.0,
+    "duration": 5.33,
+    "words": [
+      {
+        "w": "Se",
+        "s": 0,
+        "e": 0.48,
+        "probability": 0.3
+      },
+      {
+        "w": "esse",
+        "s": 0.48,
+        "e": 0.72,
+        "probability": 0.985
+      },
+      {
+        "w": "poder",
+        "s": 0.72,
+        "e": 1.04,
+        "probability": 0.986
+      },
+      {
+        "w": "existe,",
+        "s": 1.04,
+        "e": 1.68,
+        "probability": 0.983
+      },
+      {
+        "w": "talvez",
+        "s": 2.5,
+        "e": 2.92,
+        "probability": 0.989
+      },
+      {
+        "w": "eu",
+        "s": 2.92,
+        "e": 3.1,
+        "probability": 0.989
+      },
+      {
+        "w": "tenha",
+        "s": 3.1,
+        "e": 3.2,
+        "probability": 0.947
+      },
+      {
+        "w": "encontrado",
+        "s": 3.2,
+        "e": 3.64,
+        "probability": 0.998
+      },
+      {
+        "w": "um",
+        "s": 3.64,
+        "e": 3.82,
+        "probability": 0.996
+      },
+      {
+        "w": "jeito",
+        "s": 3.82,
+        "e": 4.02,
+        "probability": 0.997
+      },
+      {
+        "w": "de",
+        "s": 4.02,
+        "e": 4.3,
+        "probability": 0.997
+      },
+      {
+        "w": "fazer",
+        "s": 4.3,
+        "e": 4.58,
+        "probability": 0.997
+      },
+      {
+        "w": "justiça.",
+        "s": 4.58,
+        "e": 5.16,
+        "probability": 0.971
+      }
+    ]
+  },
+  {
+    "line": "L09",
+    "matchedFraction": 1.0,
+    "duration": 2.48,
+    "words": [
+      {
+        "w": "Eles",
+        "s": 0.12,
+        "e": 0.76,
+        "probability": 0.799
+      },
+      {
+        "w": "podem",
+        "s": 0.76,
+        "e": 1.16,
+        "probability": 0.997
+      },
+      {
+        "w": "me",
+        "s": 1.16,
+        "e": 1.34,
+        "probability": 0.996
+      },
+      {
+        "w": "chamar",
+        "s": 1.34,
+        "e": 1.64,
+        "probability": 0.997
+      },
+      {
+        "w": "de",
+        "s": 1.64,
+        "e": 1.72,
+        "probability": 0.999
+      },
+      {
+        "w": "assassino,",
+        "s": 1.72,
+        "e": 2.3,
+        "probability": 0.947
+      }
+    ]
+  },
+  {
+    "line": "L10",
+    "matchedFraction": 1.0,
+    "duration": 3.6,
+    "words": [
+      {
+        "w": "mas",
+        "s": 0.12,
+        "e": 0.64,
+        "probability": 0.978
+      },
+      {
+        "w": "alguém",
+        "s": 0.64,
+        "e": 0.9,
+        "probability": 0.993
+      },
+      {
+        "w": "precisa",
+        "s": 0.9,
+        "e": 1.44,
+        "probability": 0.995
+      },
+      {
+        "w": "fazer",
+        "s": 1.44,
+        "e": 1.86,
+        "probability": 0.997
+      },
+      {
+        "w": "o",
+        "s": 1.86,
+        "e": 2.0,
+        "probability": 0.995
+      },
+      {
+        "w": "que",
+        "s": 2.0,
+        "e": 2.06,
+        "probability": 0.996
+      },
+      {
+        "w": "ninguém",
+        "s": 2.06,
+        "e": 2.34,
+        "probability": 0.995
+      },
+      {
+        "w": "tem",
+        "s": 2.34,
+        "e": 2.6,
+        "probability": 0.997
+      },
+      {
+        "w": "coragem",
+        "s": 2.6,
+        "e": 3.0,
+        "probability": 0.994
+      },
+      {
+        "w": "de",
+        "s": 3.0,
+        "e": 3.12,
+        "probability": 0.989
+      },
+      {
+        "w": "fazer.",
+        "s": 3.12,
+        "e": 3.42,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "line": "L11",
+    "matchedFraction": 1.0,
+    "duration": 1.52,
+    "words": [
+      {
+        "w": "eu",
+        "s": 0,
+        "e": 0.1,
+        "probability": 0.994
+      },
+      {
+        "w": "vou",
+        "s": 0.1,
+        "e": 0.22,
+        "probability": 0.999
+      },
+      {
+        "w": "criar",
+        "s": 0.22,
+        "e": 0.44,
+        "probability": 0.992
+      },
+      {
+        "w": "um",
+        "s": 0.44,
+        "e": 0.66,
+        "probability": 0.997
+      },
+      {
+        "w": "mundo",
+        "s": 0.66,
+        "e": 0.86,
+        "probability": 0.989
+      },
+      {
+        "w": "novo,",
+        "s": 0.86,
+        "e": 1.34,
+        "probability": 0.993
+      }
+    ]
+  },
+  {
+    "line": "L12",
+    "matchedFraction": 1.0,
+    "duration": 1.92,
+    "words": [
+      {
+        "w": "um",
+        "s": 0.12,
+        "e": 0.44,
+        "probability": 0.975
+      },
+      {
+        "w": "mundo",
+        "s": 0.44,
+        "e": 0.74,
+        "probability": 0.998
+      },
+      {
+        "w": "sem",
+        "s": 0.74,
+        "e": 1.14,
+        "probability": 0.995
+      },
+      {
+        "w": "criminosos.",
+        "s": 1.14,
+        "e": 1.74,
+        "probability": 0.962
+      }
+    ]
+  },
+  {
+    "line": "L13",
+    "matchedFraction": 1,
+    "duration": 4.66,
+    "words": [
+      {
+        "w": "E",
+        "s": 0.0,
+        "e": 0.38,
+        "probability": 0.578
+      },
+      {
+        "w": "eu,",
+        "s": 0.38,
+        "e": 0.72,
+        "probability": 0.972
+      },
+      {
+        "w": "vou",
+        "s": 1.4,
+        "e": 1.74,
+        "probability": 0.977
+      },
+      {
+        "w": "ser",
+        "s": 1.74,
+        "e": 2.16,
+        "probability": 0.998
+      },
+      {
+        "w": "o",
+        "s": 2.16,
+        "e": 2.32,
+        "probability": 0.988
+      },
+      {
+        "w": "deus",
+        "s": 2.32,
+        "e": 3.14,
+        "probability": 0.633
+      },
+      {
+        "w": "desse",
+        "s": 3.14,
+        "e": 3.6,
+        "probability": 0.924
+      },
+      {
+        "w": "novo",
+        "s": 3.6,
+        "e": 4.0,
+        "probability": 0.897
+      },
+      {
+        "w": "mundo!",
+        "s": 4.0,
+        "e": 4.48,
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "line": "L19",
+    "matchedFraction": 1.0,
+    "duration": 2.02,
+    "words": [
+      {
+        "w": "quem",
+        "s": 0.12,
+        "e": 0.44,
+        "probability": 0.976
+      },
+      {
+        "w": "esse",
+        "s": 0.44,
+        "e": 0.7,
+        "probability": 0.967
+      },
+      {
+        "w": "cara",
+        "s": 0.7,
+        "e": 0.98,
+        "probability": 0.998
+      },
+      {
+        "w": "pensa",
+        "s": 0.98,
+        "e": 1.38,
+        "probability": 0.997
+      },
+      {
+        "w": "que",
+        "s": 1.38,
+        "e": 1.64,
+        "probability": 0.995
+      },
+      {
+        "w": "é?",
+        "s": 1.64,
+        "e": 1.84,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "line": "L20",
+    "matchedFraction": 1.0,
+    "duration": 4.42,
+    "words": [
+      {
+        "w": "Você",
+        "s": 0.12,
+        "e": 0.6,
+        "probability": 0.91
+      },
+      {
+        "w": "quer",
+        "s": 0.6,
+        "e": 0.96,
+        "probability": 0.969
+      },
+      {
+        "w": "me",
+        "s": 0.96,
+        "e": 1.1,
+        "probability": 0.992
+      },
+      {
+        "w": "encontrar?",
+        "s": 1.1,
+        "e": 1.48,
+        "probability": 0.997
+      },
+      {
+        "w": "Então",
+        "s": 2.7,
+        "e": 2.96,
+        "probability": 0.677
+      },
+      {
+        "w": "vamos",
+        "s": 2.96,
+        "e": 3.28,
+        "probability": 0.843
+      },
+      {
+        "w": "ver",
+        "s": 3.28,
+        "e": 3.64,
+        "probability": 0.996
+      },
+      {
+        "w": "quem",
+        "s": 3.64,
+        "e": 3.88,
+        "probability": 0.994
+      },
+      {
+        "w": "vence.",
+        "s": 3.88,
+        "e": 4.42,
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "line": "L21",
+    "matchedFraction": 1.0,
+    "duration": 5.38,
+    "words": [
+      {
+        "w": "Você",
+        "s": 0,
+        "e": 1.16,
+        "probability": 0.661
+      },
+      {
+        "w": "cometeu",
+        "s": 1.16,
+        "e": 1.72,
+        "probability": 0.929
+      },
+      {
+        "w": "um",
+        "s": 1.72,
+        "e": 1.84,
+        "probability": 0.994
+      },
+      {
+        "w": "grande",
+        "s": 1.84,
+        "e": 2.24,
+        "probability": 0.914
+      },
+      {
+        "w": "erro,",
+        "s": 2.24,
+        "e": 2.82,
+        "probability": 0.998
+      },
+      {
+        "w": "mostrar",
+        "s": 3.16,
+        "e": 4.18,
+        "probability": 0.623
+      },
+      {
+        "w": "seu",
+        "s": 4.18,
+        "e": 4.44,
+        "probability": 0.966
+      },
+      {
+        "w": "rosto",
+        "s": 4.44,
+        "e": 4.82,
+        "probability": 0.997
+      },
+      {
+        "w": "pra",
+        "s": 4.82,
+        "e": 5.02,
+        "probability": 0.697
+      },
+      {
+        "w": "mim.",
+        "s": 5.02,
+        "e": 5.2,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "line": "L22",
+    "matchedFraction": 1.0,
+    "duration": 0.84,
+    "words": [
+      {
+        "w": "Funcionou.",
+        "s": 0.12,
+        "e": 0.66,
+        "probability": 0.936
+      }
+    ]
+  },
+  {
+    "line": "L23",
+    "matchedFraction": 1.0,
+    "duration": 1.88,
+    "words": [
+      {
+        "w": "Eu",
+        "s": 0.12,
+        "e": 0.88,
+        "probability": 0.835
+      },
+      {
+        "w": "sabia,",
+        "s": 0.88,
+        "e": 1.7,
+        "probability": 0.966
+      }
+    ]
+  },
+  {
+    "line": "L24",
+    "matchedFraction": 1,
+    "duration": 4.58,
+    "words": [
+      {
+        "w": "Nem",
+        "s": 0.12,
+        "e": 0.92,
+        "probability": 0.825
+      },
+      {
+        "w": "o",
+        "s": 0.92,
+        "e": 1.26,
+        "probability": 0.994
+      },
+      {
+        "w": "maior",
+        "s": 1.26,
+        "e": 1.66,
+        "probability": 0.997
+      },
+      {
+        "w": "investigador",
+        "s": 1.66,
+        "e": 2.6,
+        "probability": 0.993
+      },
+      {
+        "w": "do",
+        "s": 2.6,
+        "e": 2.82,
+        "probability": 0.998
+      },
+      {
+        "w": "mundo",
+        "s": 2.82,
+        "e": 3.18,
+        "probability": 0.999
+      },
+      {
+        "w": "conseguiu",
+        "s": 3.18,
+        "e": 3.8,
+        "probability": 0.991
+      },
+      {
+        "w": "me",
+        "s": 3.8,
+        "e": 3.92,
+        "probability": 0.992
+      },
+      {
+        "w": "impedir.",
+        "s": 3.92,
+        "e": 4.4,
+        "probability": 0.944
+      }
+    ]
+  },
+  {
+    "line": "L28",
+    "matchedFraction": 1.0,
+    "duration": 1.3,
+    "words": [
+      {
+        "w": "O",
+        "s": 0.12,
+        "e": 0.34,
+        "probability": 0.939
+      },
+      {
+        "w": "que?",
+        "s": 0.34,
+        "e": 1.12,
+        "probability": 0.295
+      }
+    ]
+  },
+  {
+    "line": "L33",
+    "matchedFraction": 1.0,
+    "duration": 2.68,
+    "words": [
+      {
+        "w": "Ele...",
+        "s": 0.12,
+        "e": 1.2,
+        "probability": 0.679
+      },
+      {
+        "w": "Me",
+        "s": 1.2,
+        "e": 1.94,
+        "probability": 0.47
+      },
+      {
+        "w": "enganou.",
+        "s": 1.94,
+        "e": 2.5,
+        "probability": 0.986
+      }
+    ]
+  },
+  {
+    "line": "L34",
+    "matchedFraction": 1,
+    "duration": 5.2,
+    "words": [
+      {
+        "w": "Então,",
+        "s": 0.0,
+        "e": 0.62,
+        "probability": 0.724
+      },
+      {
+        "w": "eu",
+        "s": 0.92,
+        "e": 1.02,
+        "probability": 0.985
+      },
+      {
+        "w": "só",
+        "s": 1.02,
+        "e": 1.22,
+        "probability": 0.996
+      },
+      {
+        "w": "preciso",
+        "s": 1.22,
+        "e": 1.76,
+        "probability": 0.999
+      },
+      {
+        "w": "descobrir",
+        "s": 1.76,
+        "e": 2.46,
+        "probability": 0.995
+      },
+      {
+        "w": "o",
+        "s": 2.46,
+        "e": 3.52,
+        "probability": 0.976
+      },
+      {
+        "w": "nome",
+        "s": 3.52,
+        "e": 3.82,
+        "probability": 0.997
+      },
+      {
+        "w": "verdadeiro",
+        "s": 3.82,
+        "e": 4.56,
+        "probability": 0.997
+      },
+      {
+        "w": "dele.",
+        "s": 4.56,
+        "e": 4.78,
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "line": "L07",
+    "matchedFraction": 1.0,
+    "duration": 5.98,
+    "words": [
+      {
+        "w": "Autoridades",
+        "s": 0,
+        "e": 0.92,
+        "probability": 0.898
+      },
+      {
+        "w": "investigam",
+        "s": 0.92,
+        "e": 1.78,
+        "probability": 0.994
+      },
+      {
+        "w": "uma",
+        "s": 1.78,
+        "e": 1.96,
+        "probability": 0.998
+      },
+      {
+        "w": "sequência",
+        "s": 1.96,
+        "e": 2.5,
+        "probability": 0.988
+      },
+      {
+        "w": "inexplicável",
+        "s": 2.5,
+        "e": 3.56,
+        "probability": 0.96
+      },
+      {
+        "w": "de",
+        "s": 3.56,
+        "e": 3.7,
+        "probability": 0.998
+      },
+      {
+        "w": "mortes",
+        "s": 3.7,
+        "e": 4.32,
+        "probability": 0.995
+      },
+      {
+        "w": "entre",
+        "s": 4.32,
+        "e": 4.56,
+        "probability": 0.973
+      },
+      {
+        "w": "criminosos",
+        "s": 4.56,
+        "e": 5.2,
+        "probability": 0.99
+      },
+      {
+        "w": "procurados.",
+        "s": 5.2,
+        "e": 5.8,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "line": "L14",
+    "matchedFraction": 1.0,
+    "duration": 5.42,
+    "words": [
+      {
+        "w": "Interrompemos",
+        "s": 0.12,
+        "e": 1.18,
+        "probability": 0.95
+      },
+      {
+        "w": "nossa",
+        "s": 1.18,
+        "e": 1.4,
+        "probability": 0.972
+      },
+      {
+        "w": "programação",
+        "s": 1.4,
+        "e": 2.04,
+        "probability": 0.984
+      },
+      {
+        "w": "para",
+        "s": 2.04,
+        "e": 2.24,
+        "probability": 0.993
+      },
+      {
+        "w": "uma",
+        "s": 2.24,
+        "e": 2.36,
+        "probability": 0.994
+      },
+      {
+        "w": "declaração",
+        "s": 2.36,
+        "e": 2.88,
+        "probability": 0.962
+      },
+      {
+        "w": "do",
+        "s": 2.88,
+        "e": 3.02,
+        "probability": 0.996
+      },
+      {
+        "w": "investigador",
+        "s": 3.02,
+        "e": 3.62,
+        "probability": 0.969
+      },
+      {
+        "w": "responsável",
+        "s": 3.62,
+        "e": 4.52,
+        "probability": 0.982
+      },
+      {
+        "w": "pelo",
+        "s": 4.52,
+        "e": 4.66,
+        "probability": 0.856
+      },
+      {
+        "w": "caso",
+        "s": 4.66,
+        "e": 4.92,
+        "probability": 0.981
+      },
+      {
+        "w": "quira.",
+        "s": 4.92,
+        "e": 5.24,
+        "probability": 0.663
+      }
+    ]
+  },
+  {
+    "line": "L15",
+    "matchedFraction": 1.0,
+    "duration": 1.78,
+    "words": [
+      {
+        "w": "Meu",
+        "s": 0,
+        "e": 0.32,
+        "probability": 0.696
+      },
+      {
+        "w": "nome",
+        "s": 0.32,
+        "e": 0.62,
+        "probability": 0.998
+      },
+      {
+        "w": "é",
+        "s": 0.62,
+        "e": 0.82,
+        "probability": 0.996
+      },
+      {
+        "w": "Daniel",
+        "s": 0.82,
+        "e": 1.14,
+        "probability": 0.974
+      },
+      {
+        "w": "Vilar,",
+        "s": 1.14,
+        "e": 1.6,
+        "probability": 0.712
+      }
+    ]
+  },
+  {
+    "line": "L16",
+    "matchedFraction": 1,
+    "duration": 1.84,
+    "words": [
+      {
+        "w": "Eu",
+        "s": 0.0,
+        "e": 0.5,
+        "probability": 0.9
+      },
+      {
+        "w": "sou",
+        "s": 0.5,
+        "e": 0.82,
+        "probability": 0.988
+      },
+      {
+        "w": "L.",
+        "s": 0.82,
+        "e": 1.4,
+        "probability": 0.189
+      }
+    ]
+  },
+  {
+    "line": "L17",
+    "matchedFraction": 1.0,
+    "duration": 3.1,
+    "words": [
+      {
+        "w": "e",
+        "s": 0.12,
+        "e": 0.26,
+        "probability": 0.982
+      },
+      {
+        "w": "você,",
+        "s": 0.26,
+        "e": 0.58,
+        "probability": 0.994
+      },
+      {
+        "w": "Kira,",
+        "s": 0.78,
+        "e": 1.0,
+        "probability": 0.819
+      },
+      {
+        "w": "não",
+        "s": 1.76,
+        "e": 1.88,
+        "probability": 0.994
+      },
+      {
+        "w": "passa",
+        "s": 1.88,
+        "e": 2.18,
+        "probability": 0.993
+      },
+      {
+        "w": "de",
+        "s": 2.18,
+        "e": 2.32,
+        "probability": 0.998
+      },
+      {
+        "w": "um",
+        "s": 2.32,
+        "e": 2.42,
+        "probability": 0.988
+      },
+      {
+        "w": "assassino.",
+        "s": 2.42,
+        "e": 2.92,
+        "probability": 0.933
+      }
+    ]
+  },
+  {
+    "line": "L18",
+    "matchedFraction": 1.0,
+    "duration": 3.6,
+    "words": [
+      {
+        "w": "Você",
+        "s": 0.12,
+        "e": 0.3,
+        "probability": 0.99
+      },
+      {
+        "w": "pode",
+        "s": 0.3,
+        "e": 0.48,
+        "probability": 0.995
+      },
+      {
+        "w": "continuar",
+        "s": 0.48,
+        "e": 0.94,
+        "probability": 0.991
+      },
+      {
+        "w": "se",
+        "s": 0.94,
+        "e": 1.04,
+        "probability": 0.989
+      },
+      {
+        "w": "escondendo,",
+        "s": 1.04,
+        "e": 1.5,
+        "probability": 0.993
+      },
+      {
+        "w": "mas",
+        "s": 2.12,
+        "e": 2.4,
+        "probability": 0.997
+      },
+      {
+        "w": "eu",
+        "s": 2.4,
+        "e": 2.58,
+        "probability": 0.989
+      },
+      {
+        "w": "vou",
+        "s": 2.58,
+        "e": 2.76,
+        "probability": 0.998
+      },
+      {
+        "w": "encontrar",
+        "s": 2.76,
+        "e": 3.1,
+        "probability": 0.921
+      },
+      {
+        "w": "você.",
+        "s": 3.1,
+        "e": 3.42,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "line": "L25",
+    "matchedFraction": 1.0,
+    "duration": 1.7,
+    "words": [
+      {
+        "w": "Obrigado,",
+        "s": 0,
+        "e": 1.02,
+        "probability": 0.933
+      },
+      {
+        "w": "Kira.",
+        "s": 1.3,
+        "e": 1.52,
+        "probability": 0.88
+      }
+    ]
+  },
+  {
+    "line": "L26",
+    "matchedFraction": 1.0,
+    "duration": 3.76,
+    "words": [
+      {
+        "w": "O",
+        "s": 0.12,
+        "e": 0.26,
+        "probability": 0.985
+      },
+      {
+        "w": "homem",
+        "s": 0.26,
+        "e": 0.5,
+        "probability": 0.996
+      },
+      {
+        "w": "que",
+        "s": 0.5,
+        "e": 0.76,
+        "probability": 0.963
+      },
+      {
+        "w": "você",
+        "s": 0.76,
+        "e": 1.02,
+        "probability": 0.995
+      },
+      {
+        "w": "acabou",
+        "s": 1.02,
+        "e": 1.44,
+        "probability": 0.988
+      },
+      {
+        "w": "de",
+        "s": 1.44,
+        "e": 1.74,
+        "probability": 0.999
+      },
+      {
+        "w": "matar",
+        "s": 1.74,
+        "e": 2.14,
+        "probability": 0.998
+      },
+      {
+        "w": "não",
+        "s": 2.14,
+        "e": 3.1,
+        "probability": 0.643
+      },
+      {
+        "w": "era",
+        "s": 3.1,
+        "e": 3.36,
+        "probability": 0.998
+      },
+      {
+        "w": "eu.",
+        "s": 3.36,
+        "e": 3.58,
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "line": "L27",
+    "matchedFraction": 1.0,
+    "duration": 3.54,
+    "words": [
+      {
+        "w": "Era",
+        "s": 0.12,
+        "e": 0.36,
+        "probability": 0.993
+      },
+      {
+        "w": "um",
+        "s": 0.36,
+        "e": 0.5,
+        "probability": 0.985
+      },
+      {
+        "w": "condenado",
+        "s": 0.5,
+        "e": 1.14,
+        "probability": 0.997
+      },
+      {
+        "w": "utilizado",
+        "s": 1.14,
+        "e": 2.38,
+        "probability": 0.821
+      },
+      {
+        "w": "nesta",
+        "s": 2.38,
+        "e": 2.7,
+        "probability": 0.954
+      },
+      {
+        "w": "transmissão.",
+        "s": 2.7,
+        "e": 3.36,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "line": "L29",
+    "matchedFraction": 1,
+    "duration": 3.68,
+    "words": [
+      {
+        "w": "Dizemos",
+        "s": 0.0,
+        "e": 0.88,
+        "probability": 0.597
+      },
+      {
+        "w": "que",
+        "s": 0.88,
+        "e": 1.2,
+        "probability": 0.998
+      },
+      {
+        "w": "a",
+        "s": 1.2,
+        "e": 1.26,
+        "probability": 0.993
+      },
+      {
+        "w": "transmissão",
+        "s": 1.26,
+        "e": 2.06,
+        "probability": 0.994
+      },
+      {
+        "w": "seria",
+        "s": 2.06,
+        "e": 2.4,
+        "probability": 0.988
+      },
+      {
+        "w": "nacional.",
+        "s": 2.4,
+        "e": 3.1,
+        "probability": 0.986
+      }
+    ]
+  },
+  {
+    "line": "L30",
+    "matchedFraction": 1.0,
+    "duration": 3.24,
+    "words": [
+      {
+        "w": "mas",
+        "s": 0.12,
+        "e": 0.56,
+        "probability": 0.992
+      },
+      {
+        "w": "ela",
+        "s": 0.56,
+        "e": 0.8,
+        "probability": 0.979
+      },
+      {
+        "w": "só",
+        "s": 0.8,
+        "e": 1.0,
+        "probability": 0.975
+      },
+      {
+        "w": "foi",
+        "s": 1.0,
+        "e": 1.28,
+        "probability": 0.999
+      },
+      {
+        "w": "exibida",
+        "s": 1.28,
+        "e": 1.84,
+        "probability": 0.989
+      },
+      {
+        "w": "em",
+        "s": 1.84,
+        "e": 2.4,
+        "probability": 0.998
+      },
+      {
+        "w": "uma",
+        "s": 2.4,
+        "e": 2.64,
+        "probability": 0.984
+      },
+      {
+        "w": "região.",
+        "s": 2.64,
+        "e": 3.06,
+        "probability": 0.993
+      }
+    ]
+  },
+  {
+    "line": "L31",
+    "matchedFraction": 1.0,
+    "duration": 4.72,
+    "words": [
+      {
+        "w": "Você",
+        "s": 0.12,
+        "e": 0.58,
+        "probability": 0.996
+      },
+      {
+        "w": "acabou",
+        "s": 0.58,
+        "e": 1.1,
+        "probability": 0.997
+      },
+      {
+        "w": "de",
+        "s": 1.1,
+        "e": 1.36,
+        "probability": 0.996
+      },
+      {
+        "w": "provar",
+        "s": 1.36,
+        "e": 1.84,
+        "probability": 0.969
+      },
+      {
+        "w": "que",
+        "s": 1.84,
+        "e": 2.58,
+        "probability": 0.949
+      },
+      {
+        "w": "consegue",
+        "s": 2.58,
+        "e": 3.06,
+        "probability": 0.992
+      },
+      {
+        "w": "matar",
+        "s": 3.06,
+        "e": 3.48,
+        "probability": 0.999
+      },
+      {
+        "w": "à",
+        "s": 3.48,
+        "e": 3.92,
+        "probability": 0.538
+      },
+      {
+        "w": "distância.",
+        "s": 3.92,
+        "e": 4.54,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "line": "L32",
+    "matchedFraction": 1.0,
+    "duration": 4.18,
+    "words": [
+      {
+        "w": "E",
+        "s": 0.12,
+        "e": 0.3,
+        "probability": 0.983
+      },
+      {
+        "w": "agora,",
+        "s": 0.3,
+        "e": 0.66,
+        "probability": 0.962
+      },
+      {
+        "w": "eu",
+        "s": 1.7,
+        "e": 2.04,
+        "probability": 0.941
+      },
+      {
+        "w": "sei",
+        "s": 2.04,
+        "e": 2.46,
+        "probability": 0.998
+      },
+      {
+        "w": "onde",
+        "s": 2.46,
+        "e": 3.02,
+        "probability": 0.987
+      },
+      {
+        "w": "procurar",
+        "s": 3.02,
+        "e": 3.62,
+        "probability": 0.986
+      },
+      {
+        "w": "você.",
+        "s": 3.62,
+        "e": 4.0,
+        "probability": 0.998
+      }
+    ]
+  }
+]

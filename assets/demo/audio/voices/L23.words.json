@@ -1,0 +1,18 @@
+[
+  {
+    "w": "Eu",
+    "s": 0.11997,
+    "e": 0.87997,
+    "probability": 0.835,
+    "who": "lucas",
+    "line": "L23"
+  },
+  {
+    "w": "sabia,",
+    "s": 0.87997,
+    "e": 1.69997,
+    "probability": 0.966,
+    "who": "lucas",
+    "line": "L23"
+  }
+]

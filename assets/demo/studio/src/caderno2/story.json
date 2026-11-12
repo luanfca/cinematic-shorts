@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "title": "O ÚLTIMO SINAL",
+  "endTitle": "CONTINUA...",
+  "names": {
+    "subject": "CAIO MENDES",
+    "second": "PAULO LIMA",
+    "decoy": "RENATO DIAS",
+    "prior": "RUI COSTA",
+    "symbol": "L"
+  },
+  "comments": [
+    "O SINAL VOLTOU!",
+    "ALGUÉM ESTÁ OUVINDO?",
+    "ISSO NÃO PODE SER REAL!"
+  ],
+  "labels": {
+    "followingDays": "NOS DIAS SEGUINTES",
+    "otherCities": "MORTES EM DIFERENTES CIDADES",
+    "interrupted": "TRANSMISSÃO INTERROMPIDA",
+    "investigator": "TRANSMISSÃO AO VIVO",
+    "live": "AO VIVO",
+    "deathConfirmed": "MORTE CONFIRMADA · PARADA CARDÍACA",
+    "wanted": "PROCURADO · IDENTIFICAÇÃO DIVULGADA",
+    "signal": "SINAL",
+    "regional": "REGIONAL",
+    "regionDisclaimer": "REGIÃO APROXIMADA · NÃO O ENDEREÇO",
+    "elapsed": "40 SEGUNDOS DEPOIS",
+    "remaining": "TEMPO RESTANTE"
+  },
+  "shots": {
+    "S26": {
+      "mode": "close",
+      "broadcastMode": "fake",
+      "notebookNameKey": "decoy"
+    },
+    "S27": {
+      "mode": "close",
+      "broadcastMode": "fake",
+      "notebookNameKey": "decoy"
+    }
+  }
+}
