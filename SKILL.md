@@ -6,6 +6,14 @@ description: Produzir e refinar vídeos narrativos com Remotion, vozes consisten
 
 Use o motor e os assets desta pasta para trabalhar em um projeto separado. A skill contém código, referências de voz e um exemplo real; a instalação não garante direção cinematográfica ou interpretações novas automaticamente.
 
+## Contrato de produção obrigatório
+
+Antes de escrever um episódio novo, leia [references/production-contract.md](references/production-contract.md). Use o motor visual do pacote no resultado: adapte seus rigs, cenários, camadas, luz e câmera. Não o substitua por desenhos independentes simplificados por achar que o apartamento do exemplo não combina com o tema. A biblioteca tem outros cenários, mas seus componentes precisam ser conectados ao renderer real.
+
+Todo vídeo abre com a pergunta “E se...?”, a regra/premissa e contexto mínimo. Só depois avance no conflito. Em séries, mostre o número da parte e permita que um novo espectador entenda aquele episódio isoladamente.
+
+Para novas vozes, agrupe takes por personagem e intenção compatível; não faça uma chamada por frase como padrão. Use scripts/grouped_voice_pack.py para criar o pack offline, mantenha o modelo escolhido explicitamente e controle teto/cadência em uma fila única. O helper não gera áudio nem concede autorização de custo.
+
 ## Começar com pouco contexto
 
 1. Preserve formato, idioma, duração e estilo pedidos. O perfil pronto é vertical 1080×1920/30 fps, áudio 48 kHz; outro formato exige adaptação e testes, não alteração silenciosa do pedido.

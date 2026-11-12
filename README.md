@@ -8,9 +8,15 @@ Um projeto **E Se....? | Histórias**. O ebook associado ensina instalação e p
 
 ## Baixar a versão do guia
 
-[Baixar cinematic-shorts.zip v1.0.1](https://github.com/luanfca/cinematic-shorts/releases/download/v1.0.1/cinematic-shorts.zip) · [Ver todas as versões](https://github.com/luanfca/cinematic-shorts/releases)
+A versão deste guia é **1.1.0**. Instale diretamente de https://github.com/luanfca/cinematic-shorts, obtendo a pasta completa, e registre o commit instalado. Não copie apenas SKILL.md.
 
-A pasta no ZIP já se chama cinematic-shorts. Confira a versão antes de seguir um tutorial.
+Pedido pronto para colar no Codex ou Claude Code com acesso ao computador:
+
+> Instale a skill cinematic-shorts de https://github.com/luanfca/cinematic-shorts . Leia README e SKILL.md, instale todos os assets, scripts e referências em local compatível com este agente e confirme VERSION 1.1.0, production-contract.md e grouped_voice_pack.py. Registre o commit. Preserve projetos e alterações locais. Verifique pré-requisitos e execute a demo em um projeto separado, sem gerar voz nova. Informe o caminho instalado, o MP4 e as limitações reais.
+
+Não é preciso enviar um ZIP ao agente. A primeira obtenção do repositório e instalação de dependências requer rede; a demo usa áudio em cache.
+
+O contrato em [production-contract.md](references/production-contract.md) exige preservar o motor, abrir cada vídeo com a própria premissa e agrupar takes antes de qualquer geração de voz autorizada. `scripts/grouped_voice_pack.py` prepara os blocos offline; não gera áudio nem concede autorização de custo.
 
 ## Instalar
 
@@ -20,7 +26,7 @@ Peça ao agente:
 
 > Use $cinematic-shorts para criar um vídeo de suspense em português. Crie um projeto separado, preserve as vozes e o estilo aprovados e valide o arquivo final.
 
-O núcleo e as instruções também permitem adaptar outros temas; o template pronto usa personagens 2D, apartamento e transmissão. Não há uma biblioteca pronta para todos os cenários, estilos ou formatos.
+O núcleo e as instruções também permitem adaptar outros temas; o template pronto usa personagens 2D e modos de apartamento/transmissão. A biblioteca-fonte também inclui quarto, terraço, rua, escritório e outros cenários; cada extensão precisa ser ligada ao renderer e testada. Não há uma biblioteca pronta para todos os cenários, estilos ou formatos.
 
 ## Teste rápido, sem gerar voz nova
 

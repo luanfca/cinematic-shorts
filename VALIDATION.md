@@ -1,3 +1,14 @@
+# Revisão 1.1.0 — testes desta edição
+
+- Contrato obrigatório para preservar o motor, adaptar cenas e abrir cada vídeo com premissa e contexto; parte visível em séries.
+- grouped_voice_pack.py: três falas de dois papéis viraram dois pedidos; preservação de direção por frase, overrides explícitos, nomes únicos de takes, chave estável e invalidação seletiva testados.
+- Adaptador exercitado com WAV sintético e transporte simulado: duas chamadas simuladas, zero na repetição, opt-in obrigatório. Nenhuma API real foi chamada. Isso valida integração/cache, não qualidade de novas vozes nem disponibilidade de modelos.
+- Demo real executada novamente no Windows: 93 quadros, 3,1 s, 1080×1920/30 fps; build e QA passaram, segunda execução sem quadros novos e com QA em cache. Não houve escuta integral nem avaliação artística da demo nesta revisão.
+- Validador oficial de formato executado com Python em UTF-8: PASS. O modo de codificação padrão do Windows falhou ao ler pontuação UTF-8; o arquivo não estava corrompido.
+- Não foi produzido um novo curta de um minuto nesta revisão; não foi certificada uma instalação limpa em outro computador.
+
+## Histórico anterior do pacote (não repetido integralmente nesta revisão)
+
 # Validação do pacote
 
 Ambiente: Windows, Python 3.12, Node 26.3.1, NumPy 2.3.5, Remotion 4.0.530, React 19.0.0 e Playwright 1.61.1. As bibliotecas existentes foram referenciadas explicitamente para testar a portabilidade sem instalar globalmente nem consultar um provedor de voz.

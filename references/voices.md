@@ -2,17 +2,19 @@
 
 Os cinco perfis em .cinematic/profiles/voices.json preservam Fenrir, Charon, Kore, Orus e Sadaltager, com idioma pt-BR, estilos e referências WAV reais. A produção de referência usou Gemini 3.8 Flash TTS, com overrides pontuais Flash-Lite. Isso não garante disponibilidade, gratuidade, quota ou timbre perfeitamente idêntico em gerações futuras.
 
-Comece com áudio fornecido/cache compatível. Alterar só imagem não deve disparar voz. Para falas pendentes:
+Comece com áudio fornecido/cache compatível. Alterar só imagem não deve disparar voz. Para falas pendentes, leia primeiro [production-contract.md](production-contract.md). Prepare takes agrupados offline, preservando o modelo realmente escolhido:
 
 ```powershell
-python -X utf8 CAMINHO-DA-SKILL/scripts/cinematic.py --project PROJETO future voice-pack episodio1
+python -X utf8 CAMINHO-DA-SKILL/scripts/grouped_voice_pack.py --project PROJETO --script PROJETO/.cinematic/episodes/episodio1/script.json --output PROJETO/takes.json
 ```
 
-O resultado é state/voice-requests-v11.json. Somente após autorização adequada para usar o provedor, o adaptador opcional gera as falas, com a chave **GEMINI_API_KEY no ambiente**:
+Inspecione o pack, direção e teto. O comando legado `future voice-pack` separa por linha; não é o padrão econômico para uma nova produção. Agrupamento reduz solicitações, mas não garante reduzir caracteres faturados nem tempo de áudio. Somente após autorização do provedor e custo:
 
 ```powershell
-python -X utf8 CAMINHO-DA-SKILL/scripts/gemini_tts.py --project PROJETO --requests PROJETO/.cinematic/episodes/episodio1/state/voice-requests-v11.json --online --max-calls 2
+python -X utf8 CAMINHO-DA-SKILL/scripts/gemini_tts.py --project PROJETO --requests PROJETO/takes.json --online --max-calls 2
 ```
+
+Use a chave **GEMINI_API_KEY no ambiente**, nunca no prompt. O teto acima é um exemplo, não uma autorização automática. Faça ASR da take e recortes seguros antes de bind-voice.
 
 Nada disso é executado por init, render ou setup. O adaptador não escreve chave/headers, usa cache por request e hash de áudio e para em erros/limite de chamadas; não troca modelo nem repete indefinidamente. Pode haver cobrança no provedor. Os testes deste pacote usaram transporte simulado, não uma nova chamada real; a forma da requisição deriva da produção existente. Não deduza saldo/cota pela quantidade de vídeos.
 
