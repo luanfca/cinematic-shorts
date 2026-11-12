@@ -1,6 +1,6 @@
 {
   "format": "SKILL.md + agents/openai.yaml",
-  "version": "1.0.0-portable",
+  "version": "1.0.1-portable",
   "functionalCheckGroups": 10,
   "platformTested": "Windows",
   "demo": {

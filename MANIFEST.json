@@ -13,7 +13,7 @@
   },
   "README.md": {
     "bytes": 6325,
-    "sha256": "29ce437c9a36ebdef4685d9f57a3ea5c06de8ea46a11eaaa18cbba1e5f9ac4c0"
+    "sha256": "a2e3584d7626a31681b33be4c2791d1afe866099fcb048184b0a861a08f7a5fa"
   },
   "SKILL.md": {
     "bytes": 3323,
@@ -21,7 +21,7 @@
   },
   "validation.json": {
     "bytes": 516,
-    "sha256": "96eff6bc4fdb295c5d4f9189b874432e07e8d8d0c73ad11a9d85c7dc4647b4a1"
+    "sha256": "2bdf40d73125d6f3b94f49ad63c8e88121121aad0dfbed789b00c0657bcc0c9b"
   },
   "VALIDATION.md": {
     "bytes": 3008,
@@ -29,7 +29,7 @@
   },
   "VERSION": {
     "bytes": 6,
-    "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066"
   },
   "agents/openai.yaml": {
     "bytes": 249,

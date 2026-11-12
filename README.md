@@ -8,7 +8,7 @@ Um projeto **E Se....? | Histórias**. O ebook associado ensina instalação e p
 
 ## Baixar a versão do guia
 
-[Baixar cinematic-shorts.zip v1.0.0](https://github.com/luanfca/cinematic-shorts/releases/download/v1.0.0/cinematic-shorts.zip) · [Ver todas as versões](https://github.com/luanfca/cinematic-shorts/releases)
+[Baixar cinematic-shorts.zip v1.0.1](https://github.com/luanfca/cinematic-shorts/releases/download/v1.0.1/cinematic-shorts.zip) · [Ver todas as versões](https://github.com/luanfca/cinematic-shorts/releases)
 
 A pasta no ZIP já se chama cinematic-shorts. Confira a versão antes de seguir um tutorial.
 
