@@ -1,11 +1,11 @@
 {
   ".gitattributes": {
-    "bytes": 48,
-    "sha256": "acf75e469afcc092bbf43919791fe8c169835a2b3898c34ada1a3e1dc7ce0762"
+    "bytes": 45,
+    "sha256": "c0ef84b08c6b742480107259031de6ee15067c4dd3414f0d4c6db5b093e5caa4"
   },
   ".gitignore": {
-    "bytes": 81,
-    "sha256": "ad15c1c112ed7efccf20145caca79cb07392d5825bba7e908b875132f07a8263"
+    "bytes": 73,
+    "sha256": "d9770b1796bebe3622a36e664d348da983f2472bcc5a0a8994286bd0df3fc091"
   },
   "NOTICE.md": {
     "bytes": 1509,
@@ -28,8 +28,8 @@
     "sha256": "a7c64ee3f4c9b1b8f03e165390e12cf62add7b2a88b0409801352544ea6367b2"
   },
   "VERSION": {
-    "bytes": 7,
-    "sha256": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+    "bytes": 6,
+    "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
   },
   "agents/openai.yaml": {
     "bytes": 249,
