@@ -1,0 +1,19 @@
+{
+  "id": "sala-214",
+  "title": "Sala 214",
+  "approvedEpisode": 2,
+  "episodeState": "precision-final",
+  "canonSource": "src/voice-stage.json, Phone.tsx and Film.tsx; approved cached MP4",
+  "knownEvents": [
+    "The group keeps the classroom door locked and stays low.",
+    "A voice claiming to be Livia repeats identical words; Davi interprets it as a recording.",
+    "The corridor voice then sounds like Caio. Davi recognizes it; Caio says he never said those words.",
+    "Phone messages from Livia ask whether Caio is outside the storage room; she says she will open.",
+    "Caio sends NAO SOU EU! NAO ABRE!, wants to leave; Elisa warns that opening their door endangers everyone.",
+    "The final vote is A: run to save Livia; B: stay hidden. No outcome has been selected."
+  ],
+  "protectedUnknowns": ["Identity/nature of the threat", "Whether Livia opens her door", "Audience choice and its consequence", "Full plot of Part1, not included here"],
+  "characters": {"C": "Caio, POV; do not show a face absent from approved framing", "D": "Davi", "E": "Elisa, teacher", "L": "Livia, heard/messages"},
+  "voices": "voices.json",
+  "continuationPolicy": "Do not invent a confirmed vote, reveal the threat or rewrite approved events. New speech requires its own authorized budget."
+}

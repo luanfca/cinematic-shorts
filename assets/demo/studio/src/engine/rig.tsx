@@ -1,3 +1,4 @@
+import {SpecialEye,StarBlindfold,type EyeStyle} from './eyes';
 import React from 'react';
 import { lerp, easeInOut } from './anim';
 
@@ -18,6 +19,10 @@ export const C = {
 
 /** A costume for the rig: the same body and animation, different colours and one optional extra piece. */
 export type Look = {
+  eyeStyle?: EyeStyle; // persistent identity; default keeps the original eye renderer
+  eyeTomoe?: 1|2|3;
+  spectacles?: boolean; // transparent round frames; distinct from pose.glasses sunglasses
+
   skin: string;
   skinShade: string;
   hand: string;
@@ -74,6 +79,12 @@ export type Expr =
   | 'laugh' | 'euphoric' | 'greedy' | 'devastated' | 'panic' | 'suspicious' | 'cold' | 'determined';
 export type Limb = { a: number; b: number }; // a: upper segment angle, b: bend of the lower segment (degrees)
 export type Pose = {
+  eyeTomoe?: 1|2|3;
+  eyeStyle?: EyeStyle; // explicit story-state override, not automatically interpolated
+  eyesHidden?: boolean;
+  eyeCover?: boolean;
+  eyeCoverLift?: number;
+
   x: number;
   y: number; // hip point
   scale: number;
@@ -294,7 +305,7 @@ export const mouthPoint = (pose: Pose): P => {
   return toWorld(pose, rot(m, pose.tilt));
 };
 
-const Face: React.FC<{ expr: Expr; blink: number; look: number; lookY?: number; talk?: number; viseme?: Pose["viseme"]; glasses: number; yaw?: number; ink?: string; glint?: number; glintColor?: string; mute?: boolean }> = ({ expr, blink, look, lookY = 0, talk = 0, viseme, glasses, yaw = 0, ink = C.ink, glint = 0, glintColor = '#8FF0FF', mute = false }) => {
+const Face: React.FC<{ eyeStyle?: EyeStyle; eyesHidden?: boolean; eyeCover?: boolean; eyeCoverLift?: number; clearGlasses?: boolean; eyeTomoe?:1|2|3; expr: Expr; blink: number; look: number; lookY?: number; talk?: number; viseme?: Pose["viseme"]; glasses: number; yaw?: number; ink?: string; glint?: number; glintColor?: string; mute?: boolean }> = ({ eyeStyle='natural',eyesHidden=false,eyeCover=false,eyeCoverLift=0,clearGlasses=false,eyeTomoe=3,expr, blink, look, lookY = 0, talk = 0, viseme, glasses, yaw = 0, ink = C.ink, glint = 0, glintColor = '#8FF0FF', mute = false }) => {
   const ex = look * 7;
   const ay = Math.min(1, Math.abs(yaw));
   // A turned head COMPRESSES the face; it does not slide it sideways. The old transform was translate(yaw*30)
@@ -314,8 +325,9 @@ const Face: React.FC<{ expr: Expr; blink: number; look: number; lookY?: number; 
     : 0;
   const open = Math.max(0.08, 1 - Math.max(blink, lid));
   const eye = (cx: number) => {
+    if(eyesHidden)return null;
     if (farHidden && Math.sign(cx) === farSide) return null;
-    if (expr === 'happy' || expr === 'laugh') return <path d={`M ${cx - 10} ${eyeY + 3} Q ${cx} ${eyeY - 9} ${cx + 10} ${eyeY + 3}`} stroke={ink} strokeWidth={6} fill="none" strokeLinecap="round" />;
+    if ((expr === 'happy' || expr === 'laugh') && eyeStyle === 'natural') return <path d={`M ${cx - 10} ${eyeY + 3} Q ${cx} ${eyeY - 9} ${cx + 10} ${eyeY + 3}`} stroke={ink} strokeWidth={6} fill="none" strokeLinecap="round" />;
     // grief squeezes the eyes: the crease closes inward, steeper than a blink
     if (expr === 'devastated') return <path d={`M ${cx - 13} ${eyeY - 1} Q ${cx} ${eyeY + 9} ${cx + 9} ${eyeY - 3}`} stroke={ink} strokeWidth={5.5} fill="none" strokeLinecap="round" />;
     if (expr === 'oops') return <path d={`M ${cx - 9} ${eyeY - 6} L ${cx + 4} ${eyeY} L ${cx - 9} ${eyeY + 6}`} transform={cx > 0 ? `translate(${2 * cx},0) scale(-1,1)` : undefined} stroke={ink} strokeWidth={6} fill="none" strokeLinecap="round" strokeLinejoin="round" />;
@@ -333,6 +345,7 @@ const Face: React.FC<{ expr: Expr; blink: number; look: number; lookY?: number; 
     // the far eye narrows with the turn, so a 3/4 face keeps two eyes and still reads as turned
     const rx = (big ? 11 : 7) * (far ? 1 - 0.5 * ay : 1);
     const ry = (big ? 13 : 10) * open;
+    if(eyeStyle!=='natural')return <SpecialEye style={eyeStyle} tomoe={eyeTomoe} cx={cx} cy={eyeY+(lid?3:0)} rx={(big?14:12)*(far?1-.5*ay:1)} ry={(big?15:13)*open} gazeX={ex*.45} gazeY={lookY*3} ink={ink}/>;
     return (
       <g>
         <ellipse cx={cx + ex} cy={eyeY + (lid ? 3 : 0)} rx={rx} ry={ry} fill={ink} />
@@ -437,7 +450,7 @@ const Face: React.FC<{ expr: Expr; blink: number; look: number; lookY?: number; 
           : mouth[expr]}
       {expr === 'shock' || expr === 'oops' ? <path d={`M 52 ${HEAD.y - 30} q 6 10 0 16 q -6 -6 0 -16 Z`} fill="#8FD3FF" /> : null}
       {/* a power lighting the eyes: a soft halo, a bright iris, a white catchlight (none while the lids are shut) */}
-      {glint > 0.01 && blink < 0.95
+      {!eyesHidden && glint > 0.01 && blink < 0.95
         ? [-21, 21].map((cx) =>
             farHidden && Math.sign(cx) === farSide ? null : (
               <g key={`gl${cx}`} opacity={Math.min(1, glint)}>
@@ -458,6 +471,8 @@ const Face: React.FC<{ expr: Expr; blink: number; look: number; lookY?: number; 
           <path d={`M -40 ${eyeY + 2} L -26 ${eyeY - 10} M 16 ${eyeY + 2} L 30 ${eyeY - 10}`} stroke="#ffffff" strokeWidth={4} strokeLinecap="round" opacity={0.85} />
         </g>
       ) : null}
+      {clearGlasses&&!eyesHidden?<g data-clear-glasses="true"><circle cx={-21} cy={eyeY} r={18} fill="none" stroke={ink} strokeWidth={2.2}/><circle cx={21} cy={eyeY} r={18} fill="none" stroke={ink} strokeWidth={2.2}/><path d={`M -3 ${eyeY} Q 0 ${eyeY-4} 3 ${eyeY} M -39 ${eyeY-2} L -53 ${eyeY-8} M 39 ${eyeY-2} L 53 ${eyeY-8}`} fill="none" stroke={ink} strokeWidth={2.2}/></g>:null}
+      {eyeCover?<StarBlindfold cy={eyeY} lift={eyeCoverLift}/>:null}
     </g>
   );
 };
@@ -673,7 +688,7 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
           which erased his mouth the moment a front arm was used for anything else — a fist at the chest, a palm
           holding chips. The hand's own joint decides now: within 75 units of the mouth, mute; anywhere else, the
           face is the face. */}
-      <Face expr={pose.expr} blink={pose.blink} look={pose.look} lookY={pose.lookY} talk={pose.talk} viseme={pose.viseme} glasses={pose.glasses} yaw={pose.yaw} ink={L.face} glint={pose.glint} glintColor={pose.glintColor}
+      <Face eyeTomoe={pose.eyeTomoe??L.eyeTomoe??3} clearGlasses={L.spectacles} eyeStyle={pose.eyeStyle??L.eyeStyle??'natural'} eyesHidden={Boolean(pose.eyesHidden||pose.eyeCover)} eyeCover={pose.eyeCover} eyeCoverLift={pose.eyeCoverLift} expr={pose.expr} blink={pose.blink} look={pose.look} lookY={pose.lookY} talk={pose.talk} viseme={pose.viseme} glasses={pose.glasses} yaw={pose.yaw} ink={L.face} glint={pose.glint} glintColor={pose.glintColor}
             mute={pose.armFront >= 0.5 && (() => {
               const e = pose.yaw < 0 ? j.armL.end : j.armR.end;
               return Math.hypot(e.x, e.y - (HEAD.y + 28)) < 75;

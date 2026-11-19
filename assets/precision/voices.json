@@ -1,0 +1,27 @@
+{
+  "scope": "Cache approved for Sala214 Parte2; no API calls are authorized by this metadata",
+  "language": "pt-BR",
+  "availabilityVerifiedNow": false,
+  "roles": {
+    "E": {
+      "voice": "Kore",
+      "model": "gemini-3.1-flash-tts-preview",
+      "cachedTake": "public/takes/E.wav"
+    },
+    "C": {
+      "voice": "Puck",
+      "model": "gemini-3.1-flash-tts-preview",
+      "cachedTake": "public/takes/C.wav"
+    },
+    "D": {
+      "voice": "Orus",
+      "model": "gemini-3.1-flash-tts-preview",
+      "cachedTake": "public/takes/D.wav"
+    },
+    "L": {
+      "voice": "Aoede",
+      "model": "gemini-3.1-flash-tts-preview",
+      "cachedTake": "public/takes/L.wav"
+    }
+  }
+}

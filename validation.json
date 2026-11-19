@@ -1,25 +1,140 @@
 {
-  "format": "SKILL.md + agents/openai.yaml",
-  "version": "1.0.1-portable",
-  "functionalCheckGroups": 10,
+  "version": "1.3.0",
   "platformTested": "Windows",
-  "demo": {
-    "frames": 93,
-    "duration": 3.1,
-    "dimensions": [
-      1080,
-      1920
+  "officialSkillValidator": "PASS",
+  "typescript": "PASS",
+  "precisionInit": {
+    "status": "PASS",
+    "checks": [
+      "outside installed skill",
+      "new or empty",
+      "checksum mismatch",
+      "local media OR",
+      "three restored MP4s byte-identical",
+      "all restored WAV PCM validated during init"
     ],
-    "fps": 30,
-    "sampleRate": 48000
+    "externalProviderCalls": 0
   },
-  "compiledEdit": {
-    "frames": 161,
-    "duration": 5.366666666666666,
-    "ASRWords": 5
+  "precisionRegression": {
+    "status": "PASS",
+    "framesOutsideWindows": 1587,
+    "renderedSVGComparisons": 4761,
+    "unchangedFiles": [
+      "Film.tsx",
+      "performance.ts",
+      "envelopes.json",
+      "voice-stage.json",
+      "word-times.json",
+      "nightLighting.ts",
+      "timing.ts"
+    ],
+    "originalFilesIntact": 52,
+    "negativeFixtures": [
+      "face/foreground occlusion",
+      "static acting",
+      "camera and phone jumps",
+      "reaction order"
+    ],
+    "note": "Exact source SVG equality outside windows; codec pixels tested separately."
+  },
+  "voiceBudgetChecks": 16,
+  "providerTests": "16 mocked checks, no live calls",
+  "eyeRendererChecks": 40,
+  "defaultEyeCompatibilityCases": 10,
+  "referenceHelperChecks": 8,
+  "portableActualRender": {
+    "mode": "preview-a",
+    "dimensions": [
+      540,
+      960
+    ],
+    "frames": 240,
+    "seconds": 8,
+    "decode": "PASS"
+  },
+  "approvedFullMP4": {
+    "frames": 2037,
+    "seconds": 67.9,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "LUFS": "-14.53",
+    "dBTP": "-1.14",
+    "audioIdentical": true,
+    "decode": "complete, no errors"
+  },
+  "distribution": {
+    "version": "1.3.0",
+    "url": "https://github.com/luanfca/cinematic-shorts/releases/download/v1.3.0/cinematic-shorts-sala214-media-v1.3.0.zip",
+    "sha256": "891a5eb7ede685fd7a80adca86d628b4c34b4acdd0c7f083f83f3b03940a2e57",
+    "bytes": 84584648,
+    "originalMediaBytes": 122937190,
+    "compressionReductionPercent": 31.2,
+    "video": "MP4 bytes unchanged; Git stores code, media is a release asset",
+    "FLACRestoration": "All WAV PCM round trips matched exactly",
+    "archiveIntegrity": "CRC and all file hashes verified"
   },
   "liveProviderCalls": 0,
-  "newImagesOpened": 0,
-  "freshNetworkInstallationTested": false,
-  "crossPlatformExecutionTested": false
+  "newImagesOpenedInThisUpdate": 0,
+  "fullSubjectivePlaybackClaimed": false,
+  "freshNetworkInstallTested": false,
+  "LinuxMacOSTested": false,
+  "previousValidation": {
+    "version": "1.2.0",
+    "platformTested": "Windows",
+    "eyeRendererChecks": 40,
+    "defaultRendererCompatibilityCases": 10,
+    "referenceHelperChecks": 8,
+    "originalLanguageASR": {
+      "requested": "auto",
+      "detected": "en",
+      "words": 15
+    },
+    "typescript": "PASS",
+    "officialSkillValidator": "PASS",
+    "demo": {
+      "frames": 93,
+      "duration": 3.1,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "sampleRate": 48000,
+      "repeatNewFrames": 0,
+      "repeatQACached": true
+    },
+    "liveProviderCalls": 0,
+    "newImagesOpened": 0,
+    "subjectiveVisualReviewPerformed": false,
+    "fullListeningClaimed": false,
+    "freshNetworkInstallationTested": false,
+    "crossPlatformExecutionTested": false,
+    "referenceFidelityCertified": false,
+    "historicalValidationNotFullyRepeated": {
+      "format": "SKILL.md + agents/openai.yaml",
+      "version": "1.0.1-portable",
+      "functionalCheckGroups": 10,
+      "platformTested": "Windows",
+      "demo": {
+        "frames": 93,
+        "duration": 3.1,
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 30,
+        "sampleRate": 48000
+      },
+      "compiledEdit": {
+        "frames": 161,
+        "duration": 5.366666666666666,
+        "ASRWords": 5
+      },
+      "liveProviderCalls": 0,
+      "newImagesOpened": 0,
+      "freshNetworkInstallationTested": false,
+      "crossPlatformExecutionTested": false
+    }
+  }
 }

@@ -266,4 +266,3 @@ export const Tabletop: React.FC<{ edge?: number; wood?: string; grain?: string; 
     </g>
   );
 };
-

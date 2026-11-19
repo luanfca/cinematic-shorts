@@ -1,0 +1,612 @@
+[
+  {
+    "id": "E0",
+    "words": [
+      {
+        "text": "Ninguém",
+        "start": 0.0,
+        "end": 0.56
+      },
+      {
+        "text": "fala",
+        "start": 0.56,
+        "end": 1.04
+      },
+      {
+        "text": "nada.",
+        "start": 1.04,
+        "end": 1.44
+      }
+    ]
+  },
+  {
+    "id": "E1",
+    "words": [
+      {
+        "text": "Continuem",
+        "start": 0.0,
+        "end": 0.78
+      },
+      {
+        "text": "abaixados.",
+        "start": 0.78,
+        "end": 1.44
+      }
+    ]
+  },
+  {
+    "id": "E2",
+    "words": [
+      {
+        "text": "Isso",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "text": "não",
+        "start": 0.2,
+        "end": 0.38
+      },
+      {
+        "text": "acabou.",
+        "start": 0.38,
+        "end": 0.62
+      }
+    ]
+  },
+  {
+    "id": "E3",
+    "words": [
+      {
+        "text": "Ela",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "text": "vai",
+        "start": 0.18,
+        "end": 0.38
+      },
+      {
+        "text": "abrir.",
+        "start": 0.38,
+        "end": 0.7
+      }
+    ]
+  },
+  {
+    "id": "E4",
+    "words": [
+      {
+        "text": "Caiu",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "text": "para!",
+        "start": 0.36,
+        "end": 0.66
+      }
+    ]
+  },
+  {
+    "id": "E5",
+    "words": [
+      {
+        "text": "se",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "text": "abrir",
+        "start": 0.2,
+        "end": 0.52
+      },
+      {
+        "text": "aquela",
+        "start": 0.52,
+        "end": 0.8
+      },
+      {
+        "text": "porta.",
+        "start": 0.8,
+        "end": 1.22
+      }
+    ]
+  },
+  {
+    "id": "E6",
+    "words": [
+      {
+        "text": "Vai",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "text": "colocar",
+        "start": 0.16,
+        "end": 0.46
+      },
+      {
+        "text": "todos",
+        "start": 0.46,
+        "end": 0.9
+      },
+      {
+        "text": "nós",
+        "start": 0.9,
+        "end": 1.26
+      },
+      {
+        "text": "em",
+        "start": 1.26,
+        "end": 1.46
+      },
+      {
+        "text": "perigo!",
+        "start": 1.46,
+        "end": 1.88
+      }
+    ]
+  },
+  {
+    "id": "C0",
+    "words": [
+      {
+        "text": "a",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "text": "gente",
+        "start": 0.16,
+        "end": 0.34
+      },
+      {
+        "text": "não",
+        "start": 0.34,
+        "end": 0.54
+      },
+      {
+        "text": "vai",
+        "start": 0.54,
+        "end": 0.74
+      },
+      {
+        "text": "abrir.",
+        "start": 0.74,
+        "end": 0.96
+      }
+    ]
+  },
+  {
+    "id": "F0",
+    "words": [
+      {
+        "text": "Lívia!",
+        "start": 0.0,
+        "end": 0.52
+      },
+      {
+        "text": "Sou",
+        "start": 0.74,
+        "end": 1.0
+      },
+      {
+        "text": "eu!",
+        "start": 1.0,
+        "end": 1.2
+      }
+    ]
+  },
+  {
+    "id": "F1",
+    "words": [
+      {
+        "text": "Por",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "text": "favor!",
+        "start": 0.2,
+        "end": 0.48
+      }
+    ]
+  },
+  {
+    "id": "F2",
+    "words": [
+      {
+        "text": "Abre",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "text": "pra",
+        "start": 0.3,
+        "end": 0.48
+      },
+      {
+        "text": "mim!",
+        "start": 0.48,
+        "end": 0.7
+      }
+    ]
+  },
+  {
+    "id": "C1",
+    "words": [
+      {
+        "text": "Eu",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "text": "nunca",
+        "start": 0.14,
+        "end": 0.36
+      },
+      {
+        "text": "falei",
+        "start": 0.36,
+        "end": 0.68
+      },
+      {
+        "text": "isso!",
+        "start": 0.68,
+        "end": 1.06
+      }
+    ]
+  },
+  {
+    "id": "C2",
+    "words": [
+      {
+        "text": "Eu",
+        "start": 0.0,
+        "end": 0.76
+      },
+      {
+        "text": "preciso",
+        "start": 0.76,
+        "end": 1.14
+      },
+      {
+        "text": "ir!",
+        "start": 1.14,
+        "end": 1.52
+      }
+    ]
+  },
+  {
+    "id": "D0",
+    "words": [
+      {
+        "text": "Espera.",
+        "start": 0.0,
+        "end": 0.48
+      }
+    ]
+  },
+  {
+    "id": "D1",
+    "words": [
+      {
+        "text": "E",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "text": "lá",
+        "start": 0.16,
+        "end": 0.26
+      },
+      {
+        "text": "já",
+        "start": 0.26,
+        "end": 0.38
+      },
+      {
+        "text": "falou",
+        "start": 0.38,
+        "end": 0.6
+      },
+      {
+        "text": "isso.",
+        "start": 0.6,
+        "end": 0.94
+      }
+    ]
+  },
+  {
+    "id": "D2",
+    "words": [
+      {
+        "text": "Exatamente",
+        "start": 0.0,
+        "end": 0.68
+      },
+      {
+        "text": "do",
+        "start": 0.68,
+        "end": 0.98
+      },
+      {
+        "text": "mesmo",
+        "start": 0.98,
+        "end": 1.18
+      },
+      {
+        "text": "jeito.",
+        "start": 1.18,
+        "end": 1.56
+      }
+    ]
+  },
+  {
+    "id": "D3",
+    "words": [
+      {
+        "text": "Aquilo",
+        "start": 0.0,
+        "end": 0.44
+      },
+      {
+        "text": "não",
+        "start": 0.44,
+        "end": 0.58
+      },
+      {
+        "text": "é",
+        "start": 0.58,
+        "end": 0.76
+      },
+      {
+        "text": "alívia.",
+        "start": 0.76,
+        "end": 1.14
+      }
+    ]
+  },
+  {
+    "id": "D4",
+    "words": [
+      {
+        "text": "É",
+        "start": 0.0,
+        "end": 0.12
+      },
+      {
+        "text": "uma",
+        "start": 0.12,
+        "end": 0.22
+      },
+      {
+        "text": "gravação!",
+        "start": 0.22,
+        "end": 0.86
+      }
+    ]
+  },
+  {
+    "id": "D5",
+    "words": [
+      {
+        "text": "Tá",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "text": "indo",
+        "start": 0.14,
+        "end": 0.34
+      },
+      {
+        "text": "embora.",
+        "start": 0.34,
+        "end": 0.62
+      }
+    ]
+  },
+  {
+    "id": "D6",
+    "words": [
+      {
+        "text": "Caio.",
+        "start": 0.0,
+        "end": 0.4
+      }
+    ]
+  },
+  {
+    "id": "D7",
+    "words": [
+      {
+        "text": "Essa",
+        "start": 0.0,
+        "end": 0.26
+      },
+      {
+        "text": "é",
+        "start": 0.26,
+        "end": 0.44
+      },
+      {
+        "text": "a",
+        "start": 0.44,
+        "end": 0.44
+      },
+      {
+        "text": "sua",
+        "start": 0.44,
+        "end": 0.7
+      },
+      {
+        "text": "voz.",
+        "start": 0.7,
+        "end": 1.02
+      }
+    ]
+  },
+  {
+    "id": "D8",
+    "words": [
+      {
+        "text": "E",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "text": "se",
+        "start": 0.2,
+        "end": 0.32
+      },
+      {
+        "text": "você",
+        "start": 0.32,
+        "end": 0.6
+      },
+      {
+        "text": "não",
+        "start": 0.6,
+        "end": 0.78
+      },
+      {
+        "text": "for...",
+        "start": 0.78,
+        "end": 1.24
+      }
+    ]
+  },
+  {
+    "id": "D9",
+    "words": [
+      {
+        "text": "A",
+        "start": 0.0,
+        "end": 1.14
+      },
+      {
+        "text": "Lívia",
+        "start": 1.14,
+        "end": 1.48
+      },
+      {
+        "text": "abre",
+        "start": 1.48,
+        "end": 1.78
+      },
+      {
+        "text": "a",
+        "start": 1.78,
+        "end": 1.94
+      },
+      {
+        "text": "porta",
+        "start": 1.94,
+        "end": 2.16
+      },
+      {
+        "text": "dela.",
+        "start": 2.16,
+        "end": 2.54
+      }
+    ]
+  },
+  {
+    "id": "L0",
+    "words": [
+      {
+        "text": "Caiu!",
+        "start": 0.6199999999999999,
+        "end": 1.14
+      },
+      {
+        "text": "Sou",
+        "start": 1.16,
+        "end": 1.52
+      },
+      {
+        "text": "eu!",
+        "start": 1.52,
+        "end": 1.78
+      }
+    ]
+  },
+  {
+    "id": "L1",
+    "words": [
+      {
+        "text": "Me",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "text": "deixa",
+        "start": 0.22,
+        "end": 0.58
+      },
+      {
+        "text": "entrar!",
+        "start": 0.58,
+        "end": 0.94
+      }
+    ]
+  },
+  {
+    "id": "L2",
+    "words": [
+      {
+        "text": "Ele",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "text": "está",
+        "start": 0.24,
+        "end": 0.46
+      },
+      {
+        "text": "voltando!",
+        "start": 0.46,
+        "end": 1.08
+      }
+    ]
+  },
+  {
+    "id": "L4",
+    "words": [
+      {
+        "text": "Por",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "text": "favor!",
+        "start": 0.2,
+        "end": 0.66
+      }
+    ]
+  },
+  {
+    "id": "L3",
+    "words": [
+      {
+        "text": "Caiu!",
+        "start": 0.6199999999999999,
+        "end": 1.14
+      },
+      {
+        "text": "Sou",
+        "start": 1.16,
+        "end": 1.52
+      },
+      {
+        "text": "eu!",
+        "start": 1.52,
+        "end": 1.78
+      }
+    ]
+  }
+]

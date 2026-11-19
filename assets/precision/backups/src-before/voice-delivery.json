@@ -1,0 +1,279 @@
+{
+  "seconds": 115.73333333333333,
+  "lines": [
+    {
+      "who": "E",
+      "text": "Faltam dez minutos. Olhos na própria prova, pessoal.",
+      "at": 0.65,
+      "slot": 6,
+      "id": "E0",
+      "duration": 5.36,
+      "end": 6.01,
+      "file": "E0.wav",
+      "score": 1.0
+    },
+    {
+      "who": "C",
+      "text": "Que barulho foi esse?",
+      "at": 6.66,
+      "slot": 1.9,
+      "id": "C0",
+      "duration": 2.2,
+      "end": 8.86,
+      "file": "C0.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "Pareceu alguma coisa caindo...",
+      "at": 8.96,
+      "slot": 3.3,
+      "id": "D0",
+      "duration": 2.3,
+      "end": 11.26,
+      "file": "D0.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "Não... isso não foi um armário.",
+      "at": 11.81,
+      "slot": 4.1,
+      "id": "D1",
+      "duration": 2.82,
+      "end": 14.63,
+      "file": "D1.wav",
+      "score": 1.0
+    },
+    {
+      "who": "M",
+      "text": "Atenção, professores. Levem todas as turmas ao ginásio para a feira de ciências.",
+      "at": 15.63,
+      "slot": 8,
+      "id": "M0",
+      "duration": 7.98,
+      "end": 23.61,
+      "file": "M0.wav",
+      "score": 0.9231
+    },
+    {
+      "who": "D",
+      "text": "Feira de ciências? Foi na semana passada...",
+      "at": 23.93,
+      "slot": 4.5,
+      "id": "D2",
+      "duration": 3.64,
+      "end": 27.57,
+      "file": "D2.wav",
+      "score": 1.0
+    },
+    {
+      "who": "E",
+      "text": "É um código. Abaixem-se. Agora.",
+      "at": 28.27,
+      "slot": 3.6,
+      "id": "E1",
+      "duration": 2.61,
+      "end": 30.88,
+      "file": "E1.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "O quê?",
+      "at": 31.38,
+      "slot": 0.9,
+      "id": "D3",
+      "duration": 0.6,
+      "end": 31.98,
+      "file": "D3.wav",
+      "score": 1.0
+    },
+    {
+      "who": "E",
+      "text": "Debaixo das carteiras. Longe da porta. Sem barulho.",
+      "at": 32.33,
+      "slot": 5.7,
+      "id": "E2",
+      "duration": 4.23,
+      "end": 36.56,
+      "file": "E2.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "Isso acontece durante prova?",
+      "at": 37.66,
+      "slot": 3.6,
+      "id": "D4",
+      "duration": 2.22,
+      "end": 39.88,
+      "file": "D4.wav",
+      "score": 1.0
+    },
+    {
+      "who": "C",
+      "text": "Fica quieto.",
+      "at": 40.38,
+      "slot": 2.2,
+      "id": "C1",
+      "duration": 2.16,
+      "end": 42.54,
+      "file": "C1.wav",
+      "score": 0.8571
+    },
+    {
+      "who": "D",
+      "text": "Cadê a Lívia?",
+      "at": 42.79,
+      "slot": 1.9,
+      "id": "D5",
+      "duration": 1.56,
+      "end": 44.35,
+      "file": "D5.wav",
+      "score": 1.0
+    },
+    {
+      "who": "C",
+      "text": "Saiu faz uns dez minutos.",
+      "at": 44.6,
+      "slot": 2.7,
+      "id": "C2",
+      "duration": 1.99,
+      "end": 46.59,
+      "file": "C2.wav",
+      "score": 0.8
+    },
+    {
+      "who": "D",
+      "text": "Antes do barulho?",
+      "at": 46.94,
+      "slot": 2.0,
+      "id": "D6",
+      "duration": 1.62,
+      "end": 48.56,
+      "file": "D6.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "Manda ela ficar quietinha. Nem respirar alto.",
+      "at": 57.36,
+      "slot": 6.8,
+      "id": "D7",
+      "duration": 3.96,
+      "end": 61.32,
+      "file": "D7.wav",
+      "score": 0.8571
+    },
+    {
+      "who": "D",
+      "text": "A polícia chegou...",
+      "at": 69.82,
+      "slot": 2.5,
+      "id": "A0",
+      "duration": 1.38,
+      "end": 71.2,
+      "file": "A0.wav",
+      "score": 1.0
+    },
+    {
+      "who": "E",
+      "text": "Ninguém se levanta.",
+      "at": 71.9,
+      "slot": 2.4,
+      "id": "E3",
+      "duration": 1.61,
+      "end": 73.51,
+      "file": "E3.wav",
+      "score": 1.0
+    },
+    {
+      "who": "L",
+      "text": "Caio? Sou eu! Por favor, abre!",
+      "at": 74.21,
+      "slot": 5.8,
+      "id": "L0",
+      "duration": 3.36,
+      "end": 77.57,
+      "file": "L0.wav",
+      "score": 1.0
+    },
+    {
+      "who": "E",
+      "text": "Ninguém vai abrir essa porta.",
+      "at": 78.47,
+      "slot": 3.7,
+      "id": "E4",
+      "duration": 1.84,
+      "end": 80.31,
+      "file": "E4.wav",
+      "score": 1.0
+    },
+    {
+      "who": "L",
+      "text": "Eu tô aqui! Tá escuro!",
+      "at": 81.01,
+      "slot": 2.5,
+      "id": "L1",
+      "duration": 2.22,
+      "end": 83.23,
+      "file": "L1.wav",
+      "score": 1.0
+    },
+    {
+      "who": "D",
+      "text": "Mas é a voz dela...",
+      "at": 83.43,
+      "slot": 1.4,
+      "id": "A1",
+      "duration": 1.68,
+      "end": 85.11,
+      "file": "A1.wav",
+      "score": 1.0
+    },
+    {
+      "who": "L",
+      "text": "Alguém tá vindo! Abre rápido!",
+      "at": 85.41,
+      "slot": 4.4,
+      "id": "L2",
+      "duration": 3.25,
+      "end": 88.66,
+      "file": "L2.wav",
+      "score": 1.0
+    },
+    {
+      "id": "C3",
+      "who": "C",
+      "text": "Ela disse que está no depósito. Mandou não abrir.",
+      "at": 96.06,
+      "duration": 4.04,
+      "end": 100.1,
+      "file": "C3.wav",
+      "slot": 4.3
+    },
+    {
+      "who": "D",
+      "text": "Então... quem está na porta?",
+      "at": 100.45,
+      "slot": 3.8,
+      "id": "D8",
+      "duration": 4.32,
+      "end": 104.77,
+      "file": "D8.wav",
+      "score": 1.0
+    },
+    {
+      "who": "L",
+      "text": "Caio... você vai abrir?",
+      "at": 105.42,
+      "slot": 5.2,
+      "id": "L3",
+      "duration": 4.6,
+      "end": 110.02,
+      "file": "L3.wav",
+      "score": 1.0
+    }
+  ]
+}

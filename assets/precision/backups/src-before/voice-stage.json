@@ -1,0 +1,313 @@
+{
+  "seconds": 67.9,
+  "lines": [
+    {
+      "who": "C",
+      "at": 0.8,
+      "slot": 2.9,
+      "text": "A gente não vai abrir.",
+      "id": "C0",
+      "duration": 1.2,
+      "score": 1.0,
+      "end": 2.0,
+      "file": "C0.wav"
+    },
+    {
+      "who": "L",
+      "at": 3.98,
+      "slot": 1.68,
+      "text": "Caio, sou eu...",
+      "id": "L0",
+      "duration": 2.02,
+      "score": 1.0,
+      "end": 6.0,
+      "file": "L0.wav"
+    },
+    {
+      "who": "L",
+      "at": 6.13,
+      "slot": 1.1,
+      "text": "Me deixa entrar!",
+      "id": "L1",
+      "duration": 1.25,
+      "score": 1.0,
+      "end": 7.38,
+      "file": "L1.wav"
+    },
+    {
+      "who": "E",
+      "at": 7.5,
+      "slot": 1.65,
+      "text": "Ninguém fala nada.",
+      "id": "E0",
+      "duration": 1.76,
+      "score": 1.0,
+      "end": 9.26,
+      "file": "E0.wav"
+    },
+    {
+      "who": "L",
+      "at": 9.7,
+      "slot": 3.1,
+      "text": "Ele tá voltando!",
+      "id": "L2",
+      "duration": 1.31,
+      "score": 0.6666666666666666,
+      "end": 11.01,
+      "file": "L2.wav"
+    },
+    {
+      "who": "D",
+      "at": 14.15,
+      "slot": 0.87,
+      "text": "Espera...",
+      "id": "D0",
+      "duration": 0.62,
+      "score": 1.0,
+      "end": 14.77,
+      "file": "D0.wav"
+    },
+    {
+      "who": "D",
+      "at": 15.35,
+      "slot": 1.3,
+      "text": "Ela já falou isso.",
+      "id": "D1",
+      "duration": 1.13,
+      "score": 1.0,
+      "end": 16.48,
+      "file": "D1.wav"
+    },
+    {
+      "who": "D",
+      "at": 17,
+      "slot": 2,
+      "text": "Exatamente do mesmo jeito.",
+      "id": "D2",
+      "duration": 1.89,
+      "score": 1.0,
+      "end": 18.89,
+      "file": "D2.wav"
+    },
+    {
+      "who": "L",
+      "at": 19.04,
+      "slot": 1.68,
+      "text": "Caio, sou eu...",
+      "id": "L3",
+      "duration": 2.02,
+      "score": 1.0,
+      "end": 21.06,
+      "file": "L0.wav"
+    },
+    {
+      "who": "L",
+      "at": 21.1,
+      "slot": 1.6,
+      "text": "Por favooor...",
+      "id": "L4",
+      "duration": 1.14,
+      "score": 0.6666666666666666,
+      "end": 22.240000000000002,
+      "file": "L4.wav"
+    },
+    {
+      "who": "D",
+      "at": 23.0,
+      "slot": 1.85,
+      "text": "Aquilo não é a Lívia.",
+      "id": "D3",
+      "duration": 1.31,
+      "score": 1.0,
+      "end": 24.31,
+      "file": "D3.wav"
+    },
+    {
+      "who": "D",
+      "at": 25.12,
+      "slot": 1.73,
+      "text": "É uma gravação.",
+      "id": "D4",
+      "duration": 1.04,
+      "score": 1.0,
+      "end": 26.16,
+      "file": "D4.wav"
+    },
+    {
+      "who": "D",
+      "at": 28.75,
+      "slot": 1.6,
+      "text": "Tá indo embora...",
+      "id": "D5",
+      "duration": 1.0055,
+      "score": 0.5,
+      "end": 29.7555,
+      "file": "D5-alt.wav"
+    },
+    {
+      "who": "E",
+      "at": 30.56,
+      "slot": 1.55,
+      "text": "Continuem abaixados.",
+      "id": "E1",
+      "duration": 1.65,
+      "score": 1.0,
+      "end": 32.21,
+      "file": "E1.wav"
+    },
+    {
+      "who": "E",
+      "at": 32.48,
+      "slot": 1.52,
+      "text": "Isso não acabou.",
+      "id": "E2",
+      "duration": 0.9099583333333333,
+      "score": 1.0,
+      "end": 33.38995833333333,
+      "file": "E2.wav"
+    },
+    {
+      "who": "C",
+      "at": 37.35,
+      "slot": 1.65,
+      "text": "Lívia... sou eu.",
+      "id": "F0",
+      "duration": 1.42,
+      "score": 1.0,
+      "end": 38.77,
+      "file": "F0.wav"
+    },
+    {
+      "who": "C",
+      "at": 39.4,
+      "slot": 0.95,
+      "text": "Por favor...",
+      "id": "F1",
+      "duration": 0.83,
+      "score": 1.0,
+      "end": 40.23,
+      "file": "F1.wav"
+    },
+    {
+      "who": "C",
+      "at": 40.58,
+      "slot": 1.42,
+      "text": "Abre pra mim.",
+      "id": "F2",
+      "duration": 0.91,
+      "score": 1.0,
+      "end": 41.489999999999995,
+      "file": "F2.wav"
+    },
+    {
+      "who": "D",
+      "at": 42.2,
+      "slot": 0.75,
+      "text": "Caio...",
+      "id": "D6",
+      "duration": 0.53,
+      "score": 1.0,
+      "end": 42.730000000000004,
+      "file": "D6.wav"
+    },
+    {
+      "who": "D",
+      "at": 43.15,
+      "slot": 1.55,
+      "text": "Essa é a sua voz.",
+      "id": "D7",
+      "duration": 1.3599583333333334,
+      "score": 1.0,
+      "end": 44.50995833333333,
+      "file": "D7.wav"
+    },
+    {
+      "who": "C",
+      "at": 45.12,
+      "slot": 1.88,
+      "text": "Eu nunca falei isso!",
+      "id": "C1",
+      "duration": 1.28,
+      "score": 1.0,
+      "end": 46.4,
+      "file": "C1.wav"
+    },
+    {
+      "who": "E",
+      "at": 53.2,
+      "slot": 1.1,
+      "text": "Ela vai abrir!",
+      "id": "E3",
+      "duration": 0.8999583333333333,
+      "score": 1.0,
+      "end": 54.09995833333333,
+      "file": "E3.wav"
+    },
+    {
+      "who": "C",
+      "at": 54.37,
+      "slot": 1.52,
+      "text": "Eu preciso ir!",
+      "id": "C2",
+      "duration": 1.65,
+      "score": 1.0,
+      "end": 56.019999999999996,
+      "file": "C2.wav"
+    },
+    {
+      "who": "E",
+      "at": 56.06,
+      "slot": 0.9,
+      "text": "Caio, para!",
+      "id": "E4",
+      "duration": 0.8800416666666667,
+      "score": 1.0,
+      "end": 56.940041666666666,
+      "file": "E4.wav"
+    },
+    {
+      "who": "E",
+      "at": 57.04,
+      "slot": 1.2,
+      "text": "Se abrir aquela porta...",
+      "id": "E5",
+      "duration": 1.58,
+      "score": 1.0,
+      "end": 58.62,
+      "file": "E5.wav"
+    },
+    {
+      "who": "E",
+      "at": 58.68,
+      "slot": 2.27,
+      "text": "...vai colocar todos nós em perigo!",
+      "id": "E6",
+      "duration": 2.04,
+      "score": 1.0,
+      "end": 60.72,
+      "file": "E6.wav"
+    },
+    {
+      "who": "D",
+      "at": 60.88,
+      "slot": 1.44,
+      "text": "E se você não for...",
+      "id": "D8",
+      "duration": 1.27,
+      "score": 1.0,
+      "end": 62.150000000000006,
+      "file": "D8.wav"
+    },
+    {
+      "who": "D",
+      "at": 62.34,
+      "slot": 2.0,
+      "text": "...a Lívia abre a porta dela.",
+      "id": "D9",
+      "duration": 2.75,
+      "score": 1.0,
+      "end": 65.09,
+      "file": "D9.wav"
+    }
+  ]
+}

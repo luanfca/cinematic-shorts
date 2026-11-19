@@ -27,4 +27,3 @@ export const Film:React.FC=()=>{const f=useCurrentFrame();const s=TL.shots.find(
  {mode==='end'?<><rect width="1080"height="1920"fill="#080910"/><text x="540"y="840"textAnchor="middle"fontFamily="Arial"fontSize="43"fontWeight="700"fill="#e5e2d4">{STORY.title}</text><text x="540"y="980"textAnchor="middle"fontFamily="Georgia"fontSize="68"fill="#e9bd73">{STORY.endTitle}</text></>:<CaptionsLayer f={f}fps={30}chunks={CAPS as CaptionChunk[]}fontFamily="Arial"fontSize={54}y={1550}/>}
  </svg>
 };
-

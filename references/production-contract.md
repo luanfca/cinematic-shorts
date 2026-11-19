@@ -1,6 +1,6 @@
 # Contrato de produção
 
-Leia antes de criar uma história nova. O resultado desejado é o motor cinematográfico da skill em uma história própria, não só um arquivo tecnicamente 1080p.
+Leia antes de criar uma história nova ou reconstruir uma referência. Para vídeo fornecido, seguir também [reference-reproduction.md](reference-reproduction.md). O resultado desejado é o motor cinematográfico da skill em uma história própria, não só um arquivo tecnicamente 1080p.
 
 ## Motor visual
 
@@ -9,9 +9,11 @@ Leia antes de criar uma história nova. O resultado desejado é o motor cinemato
 3. Reutilize Actor/basePose ou o rig conectado pertinente, câmera, materiais e luz. SVG é usado pelo motor; a proibição é trocar esse sistema por desenhos independentes simplificados e chamar isso de mesma qualidade. Uma extensão SVG coerente sobre o motor é válida.
 4. Registre em production-plan.json cada plano, ação, emoção, enquadramento, fonte do cenário e componente. Esse plano é documentação de autoria; não passe seus campos ao compilador sem verificar o schema.
 
-## Abertura autônoma — sempre
+## Abertura conforme o modo
 
-Todo vídeo começa apresentando o que é a história: pergunta “E se...?”, regra ou condição principal e contexto mínimo. Só depois vem o conflito. Em séries, mostre o número da parte. Não dependa de o público ter visto a parte anterior e não faça recapitulacão longa.
+Em histórias originais do canal, a ação, perigo ou consequência começa no frame 0. Integrar “E se...?”, regra e contexto mínimo à ação, sem esperar uma explicação para iniciar o conflito. Em séries, mostrar o número da parte sem interromper a história. Até 3 s, o extraordinário deve estar claro; até 6 s, existir curiosidade dramática concreta. Não depender de episódios anteriores nem fazer recapitulação longa. Aplicar [retention.md](retention.md): 35–60 s quando natural, teto 90 s salvo pedido atual explícito diferente.
+
+Em reprodução fiel, manter a abertura e os falantes da mídia, sem adicionar narração, resumo ou uma pergunta ausente. Preservar o final protegido e a duração pedida conforme os áudios medidos.
 
 ## Takes agrupados
 

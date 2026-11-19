@@ -106,7 +106,7 @@ def main():
  q=s.add_parser('setup');q.add_argument('--install',action='store_true');q.add_argument('--download-browser',action='store_true')
  for name in ['doctor','plan','context','build','clone','future','bind-voice','bind-master','compile','align']:
   q=s.add_parser(name)
-  if name=='align':q.add_argument('--wav',required=True);q.add_argument('--model',required=True);q.add_argument('--output',required=True)
+  if name=='align':q.add_argument('--wav',required=True);q.add_argument('--model',required=True);q.add_argument('--output',required=True);q.add_argument('--language',default='pt')
   else:q.add_argument('args',nargs=argparse.REMAINDER)
  a=p.parse_args();project=safe_project(a.project)
  if a.cmd=='init':output(initialize(project,a.browser,a.node_modules));return
@@ -115,7 +115,7 @@ def main():
  if a.cmd=='compile':
   import compile_episode;output(compile_episode.compile_episode(m,*a.args));return
  if a.cmd=='align':
-  import align;output(align.run(project,['--wav',a.wav,'--model',a.model,'--output',a.output]));return
+  import align;output(align.run(project,['--wav',a.wav,'--model',a.model,'--output',a.output,'--language',a.language]));return
  old=sys.argv;sys.argv=[str(m.ROOT/'engine.py'),a.cmd,*a.args]
  try:m.main()
  finally:sys.argv=old

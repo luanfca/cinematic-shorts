@@ -8,15 +8,41 @@ Um projeto **E Se....? | Histórias**. O ebook associado ensina instalação e p
 
 ## Baixar a versão do guia
 
-A versão deste guia é **1.1.0**. Instale diretamente de https://github.com/luanfca/cinematic-shorts, obtendo a pasta completa, e registre o commit instalado. Não copie apenas SKILL.md.
+A versão deste guia é **1.3.0**. Instale diretamente de https://github.com/luanfca/cinematic-shorts, obtendo a pasta completa, e registre o commit instalado. Não copie apenas SKILL.md.
 
 Pedido pronto para colar no Codex ou Claude Code com acesso ao computador:
 
-> Instale a skill cinematic-shorts de https://github.com/luanfca/cinematic-shorts . Leia README e SKILL.md, instale todos os assets, scripts e referências em local compatível com este agente e confirme VERSION 1.1.0, production-contract.md e grouped_voice_pack.py. Registre o commit. Preserve projetos e alterações locais. Verifique pré-requisitos e execute a demo em um projeto separado, sem gerar voz nova. Informe o caminho instalado, o MP4 e as limitações reais.
+> Instale a skill cinematic-shorts de https://github.com/luanfca/cinematic-shorts . Leia README e SKILL.md, instale todos os assets, scripts e referências em local compatível com este agente e confirme VERSION 1.3.0, production-contract.md e grouped_voice_pack.py. Registre o commit. Preserve projetos e alterações locais. Verifique pré-requisitos e execute a demo em um projeto separado, sem gerar voz nova. Informe o caminho instalado, o MP4 e as limitações reais.
 
 Não é preciso enviar um ZIP ao agente. A primeira obtenção do repositório e instalação de dependências requer rede; a demo usa áudio em cache.
 
-O contrato em [production-contract.md](references/production-contract.md) exige preservar o motor, abrir cada vídeo com a própria premissa e agrupar takes antes de qualquer geração de voz autorizada. `scripts/grouped_voice_pack.py` prepara os blocos offline; não gera áudio nem concede autorização de custo.
+O contrato em [production-contract.md](references/production-contract.md) exige preservar o motor, ação desde o frame0 com premissa integrada e takes agrupados antes de qualquer geração de voz autorizada. `scripts/grouped_voice_pack.py` prepara os blocos offline; não gera áudio nem concede autorização de custo.
+
+## Atualização 1.3.0 — motor real de atuação e transferência
+
+Além do template original, inclui **Sala 214 Parte2 precision completa em fonte**, com câmera espacial, mãos POV, telefone legível e atuação facial/corporal progressiva. Os módulos CharacterActingSystem, POVCinematicDirector e ActingQualityValidator são usados pela cena real. Os presets de olhos e a reprodução fiel da edição1.2 continuam incluídos. Veja [CHANGELOG](CHANGELOG.md).
+
+Para o exemplo de qualidade mais recente, em um projeto separado:
+
+```powershell
+python CAMINHO-DA-SKILL/scripts/precision.py init --project ./sala214 --download-media
+cd sala214
+npm install
+npm run check
+npm run preview:a
+npm run preview:b
+npm run render
+```
+
+Instalar npm somente se faltarem dependências locais. As mídias são um download explícito da [release v1.3.0](https://github.com/luanfca/cinematic-shorts/releases/tag/v1.3.0), com SHA256 fixo em assets/precision/media.json. Para uso offline, trocar --download-media por --media-zip CAMINHO/cinematic-shorts-sala214-media-v1.3.0.zip. Não há chamada de TTS. Os vídeos de referência permanecem idênticos byte a byte; WAVs inteiros usam FLAC e voltam ao mesmo PCM; WAVs float permanecem originais. Arquivos grandes não entram no histórico Git.
+
+Regras de retenção: ação desde frame0, entendimento até3s, curiosidade até6s, progressão significativa a cada5–8s, preferência35–60s/teto90s, sem acelerar TTS. Correção cirúrgica respeita abertura e conteúdo aprovados. [Retenção](references/retention.md), [atuação/POV](references/acting-and-pov.md), [vozes/continuidade](references/performance-and-continuity.md), [transferência Claude Code](references/claude-handoff.md) e [render/distribuição](references/render-and-distribution.md).
+
+Não misturar os comandos do adaptador legado `.cinematic` com a estrutura direta do template precision sem adaptar a integração. Não basta trocar o texto de um vídeo da Sala214 para produzir qualquer cenário; o template fornece fontes, exemplos e QA reais para autoria.
+
+## Adaptação fiel de uma referência
+
+A edição 1.2.0 acrescenta análise offline de referência, transcrição no idioma original e estados visuais de olhos no próprio renderer. Veja [reprodução por referência](references/reference-reproduction.md) e [olhos e venda](references/character-eyes.md). A aparência 3D de um vídeo fornecido continua dependendo dos recursos reais: os presets atuais são 2.5D. Não é preciso trocar o motor aprovado nem contratar um serviço para testar a análise.
 
 ## Instalar
 
@@ -74,3 +100,5 @@ O pacote foi exercitado no Windows, em projeto separado com espaços/acentos, us
 O repositório [claude-shorts-roblox](https://github.com/celticmatheus/claude-shorts-roblox) foi consultado como referência de distribuição de uma skill. Ele usa Canvas; aqui usamos Remotion com o método de produção/QA desenvolvido neste workspace. Não foi executada uma comparação de qualidade entre os dois, e nenhum arquivo daquele repositório foi copiado.
 
 O motor visual veio do projeto fornecido pelo usuário e foi adaptado. Não foi presumida uma licença MIT global para esse conteúdo herdado. As dependências mantêm suas próprias licenças, inclusive a [licença do Remotion](https://www.remotion.dev/docs/licensing). Consulte NOTICE.md para a proveniência; a disponibilidade pública não substitui as licenças aplicáveis a cada componente.
+
+Prévia local dos presets: [abrir catálogo de olhos](assets/eye-presets.html). Abra o HTML no navegador; não depende de API.

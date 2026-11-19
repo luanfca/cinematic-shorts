@@ -1,0 +1,262 @@
+[
+  {
+    "source": "backups/src-before/ActingQualityValidator.ts",
+    "relative": "src\\ActingQualityValidator.ts",
+    "sha256": "c094781f489b77815ff8987eca3c073f375357e3e14d9e617dac78456068b5d6"
+  },
+  {
+    "source": "backups/src-before/Character.tsx",
+    "relative": "src\\Character.tsx",
+    "sha256": "a23e67b23ed55e382db367f37e7b0305868e9df4953791eea3d11c62b31653ef"
+  },
+  {
+    "source": "backups/src-before/CharacterActingSystem.ts",
+    "relative": "src\\CharacterActingSystem.ts",
+    "sha256": "504381607826b30e33ee4b4554ccd2564428a57a98a1cf55470a190202a7edff"
+  },
+  {
+    "source": "backups/src-before/Classroom.tsx",
+    "relative": "src\\Classroom.tsx",
+    "sha256": "6db30cde3febee394ec19a412752b406377111b8b17fd4d9ad14da2e17a5d12e"
+  },
+  {
+    "source": "backups/src-before/emotion.ts",
+    "relative": "src\\emotion.ts",
+    "sha256": "d98963178291249effd39ed98111391eeca5949061b78cecc7d384137553b81c"
+  },
+  {
+    "source": "backups/src-before/envelopes.json",
+    "relative": "src\\envelopes.json",
+    "sha256": "47c33859570529e04caa67774a7da0d0de19b74c3b3533a6a0e6f2b13b2ba3e4"
+  },
+  {
+    "source": "backups/src-before/ExamPaper.tsx",
+    "relative": "src\\ExamPaper.tsx",
+    "sha256": "85197a1719796f864f72c5916231ee02b1a6b504defe9b561829f6eaec2a6302"
+  },
+  {
+    "source": "backups/src-before/Film.tsx",
+    "relative": "src\\Film.tsx",
+    "sha256": "d0b9d6df72a8c184c456ca2c9b9823125e0e6a51a054d0871a33c44f1e7be49c"
+  },
+  {
+    "source": "backups/src-before/Finish.tsx",
+    "relative": "src\\Finish.tsx",
+    "sha256": "b3056658bd251e84ac3b162b2f708b35a81686eef3ad0f3ce279d84370fe5240"
+  },
+  {
+    "source": "backups/src-before/HandsPhone.tsx",
+    "relative": "src\\HandsPhone.tsx",
+    "sha256": "1c9bc3a9138160f10b86ac286596fdf37179a20b072a311ca64f89ff7844973f"
+  },
+  {
+    "source": "backups/src-before/index.tsx",
+    "relative": "src\\index.tsx",
+    "sha256": "b4caf4c82c2e00e58960cdfce57050f5c8d323dc33046aa438faeff74cf36677"
+  },
+  {
+    "source": "backups/src-before/motion.ts",
+    "relative": "src\\motion.ts",
+    "sha256": "5656bb038fd9604e29858c1fff856562e5578e71f8538e527e0c14c332c83b0f"
+  },
+  {
+    "source": "backups/src-before/nightLighting.ts",
+    "relative": "src\\nightLighting.ts",
+    "sha256": "302d0da9944c970ab53a0d1bb53a9173e10cef4bfac7278407c1a0415cfeb66c"
+  },
+  {
+    "source": "backups/src-before/performance.ts",
+    "relative": "src\\performance.ts",
+    "sha256": "c84f8c426ed1325c9a9ca23919932e96d62b8cdb9a3382935f9b9ca81602d231"
+  },
+  {
+    "source": "backups/src-before/Phone.tsx",
+    "relative": "src\\Phone.tsx",
+    "sha256": "f506516bddfbab3736c8ba27a4114bc4e7513f61e07157633606edf482a7cb32"
+  },
+  {
+    "source": "backups/src-before/pov.ts",
+    "relative": "src\\pov.ts",
+    "sha256": "4bd868392fe7ac64d8956560687456cd2527d4e1d91bbd8234f64b501173f518"
+  },
+  {
+    "source": "backups/src-before/POVCinematicDirector.ts",
+    "relative": "src\\POVCinematicDirector.ts",
+    "sha256": "d947d666726fa0df54735f078ae257c756ca6e1f9399310bb4721b7618784a0e"
+  },
+  {
+    "source": "backups/src-before/rescue.ts",
+    "relative": "src\\rescue.ts",
+    "sha256": "818c97f0f7f676fb04e90f95d350f665081ccf9b9e305232f757fada17c1b4a4"
+  },
+  {
+    "source": "backups/src-before/spatial.ts",
+    "relative": "src\\spatial.ts",
+    "sha256": "6128de4bdc7376bb00586a74c838ff6109ff7580d2e9e981ed1c406f9ad1a03a"
+  },
+  {
+    "source": "backups/src-before/timeline.json",
+    "relative": "src\\timeline.json",
+    "sha256": "f372003a095845203f7f3316103efd0a062dbca2b65ff701a257f1c8186d04f9"
+  },
+  {
+    "source": "backups/src-before/timing.ts",
+    "relative": "src\\timing.ts",
+    "sha256": "1c8180b09010df145187bba81b35280904c14c4959e18b8492e4e3f6a24d8bca"
+  },
+  {
+    "source": "backups/src-before/voice-delivery.json",
+    "relative": "src\\voice-delivery.json",
+    "sha256": "42f5ec383ef1515ac335202ba66ee446eead1692249f37e53fefad82c11a99d2"
+  },
+  {
+    "source": "backups/src-before/voice-stage.json",
+    "relative": "src\\voice-stage.json",
+    "sha256": "e914ebf600237cd99bc25bd4d846c7d9dff5004feba953d3590073aa4c14921a"
+  },
+  {
+    "source": "backups/src-before/voice.json",
+    "relative": "src\\voice.json",
+    "sha256": "56f4b4022ebdbb0aa11613250c241ba93ae196ebf58f60e528bff2f75a9f2daf"
+  },
+  {
+    "source": "backups/src-before/word-times.json",
+    "relative": "src\\word-times.json",
+    "sha256": "a5de7483fc605a77798ca162eaab7df017cfb84ffe562bbb0d0acddcb313b7ba"
+  },
+  {
+    "source": "backups/src-before/WorldHands.tsx",
+    "relative": "src\\WorldHands.tsx",
+    "sha256": "03944ef41a04bc632e0a98b3aa465573bbd85eb1b015bb850ef5097dff0ce9f5"
+  },
+  {
+    "source": "backups/src-before/assets/art.tsx",
+    "relative": "src\\assets\\art.tsx",
+    "sha256": "540a092cafaab3f0612b3d18d6c1932e96a3e32979a008404853484fec32b50e"
+  },
+  {
+    "source": "backups/src-before/assets/guardian.tsx",
+    "relative": "src\\assets\\guardian.tsx",
+    "sha256": "a954910b29b9798ab54a00436c280d663cfa4c5cd297db4f6e15d3c14e25bf81"
+  },
+  {
+    "source": "backups/src-before/assets/world.tsx",
+    "relative": "src\\assets\\world.tsx",
+    "sha256": "4f3db0b83edcf59844a23f851d67ec5a15955635d864908cd56f966b4dd3d7a7"
+  },
+  {
+    "source": "backups/src-before/engine/anim.ts",
+    "relative": "src\\engine\\anim.ts",
+    "sha256": "d8b3dcb26c4fee1270c3ef25bf0b92049c66301a4facf9d93feb228b97958a2b"
+  },
+  {
+    "source": "backups/src-before/engine/captions.tsx",
+    "relative": "src\\engine\\captions.tsx",
+    "sha256": "a784f2c37dc9e5ae29c247070284b4bf11c51bac82e902f652184ce6b43d5bb0"
+  },
+  {
+    "source": "backups/src-before/engine/episode.tsx",
+    "relative": "src\\engine\\episode.tsx",
+    "sha256": "44cb57cf721d79539ba32351c98ad2db89ec8249eda439e79f63f4121c0eb19f"
+  },
+  {
+    "source": "backups/src-before/engine/fonts.ts",
+    "relative": "src\\engine\\fonts.ts",
+    "sha256": "2f9d96d7cbf93d108b20660ba7e1ef1dab3c40e5b7ac7b62eea6c722b690bd98"
+  },
+  {
+    "source": "backups/src-before/engine/furnish.tsx",
+    "relative": "src\\engine\\furnish.tsx",
+    "sha256": "e02d8488e297e31f55495488aba2a5c4c8514566fdbdff9afe4bc3ff71093353"
+  },
+  {
+    "source": "backups/src-before/engine/index.ts",
+    "relative": "src\\engine\\index.ts",
+    "sha256": "fb51d541991f40cc1286807d6662da3648f427ee8f8d8831322240c3026ea35a"
+  },
+  {
+    "source": "backups/src-before/engine/kit.tsx",
+    "relative": "src\\engine\\kit.tsx",
+    "sha256": "d40b58356ea90ca280dbf6329b72264b317509cc275746e83bb33c642295fa87"
+  },
+  {
+    "source": "backups/src-before/engine/light.tsx",
+    "relative": "src\\engine\\light.tsx",
+    "sha256": "f8e7d7d76e56d959a0833bf4ab40770437ef00e566b934aaa6ee682e506340a6"
+  },
+  {
+    "source": "backups/src-before/engine/npc.tsx",
+    "relative": "src\\engine\\npc.tsx",
+    "sha256": "ec1611c210cc0da57fc933324308f7f4c6984613b42a0245ded8625db81a8872"
+  },
+  {
+    "source": "backups/src-before/engine/props.tsx",
+    "relative": "src\\engine\\props.tsx",
+    "sha256": "f0679a78c7e2c3c31b581ede3b9e01efd992c3a637151b1c1bc49408cf27b311"
+  },
+  {
+    "source": "backups/src-before/engine/rig.tsx",
+    "relative": "src\\engine\\rig.tsx",
+    "sha256": "e282b209c351f8319edaab0b09bfe80e4e507699474f1be6920b8c8ab1bad9c5"
+  },
+  {
+    "source": "backups/src-before/engine/room.tsx",
+    "relative": "src\\engine\\room.tsx",
+    "sha256": "3d03eb5edbe77b89ca460fae3d138ef0fd73048a6752764346e5a9a0204382b2"
+  },
+  {
+    "source": "backups/src-before/engine/stage.ts",
+    "relative": "src\\engine\\stage.ts",
+    "sha256": "dd18882adc344dca4b728cb6d8a959b325125f2acd89b3481ee7aa8ab46a574a"
+  },
+  {
+    "source": "backups/src-before/engine/ui.tsx",
+    "relative": "src\\engine\\ui.tsx",
+    "sha256": "1fc75bc820ad06ce2afd73c832c4a4e34a904123e8134dcaa625d055b904e7d3"
+  },
+  {
+    "source": "backups/src-before/engine/sets/bedroom.tsx",
+    "relative": "src\\engine\\sets\\bedroom.tsx",
+    "sha256": "ea177f60d508b2ca3071c5532e414d712863de61d4d2257a2aeceda7f6007bef"
+  },
+  {
+    "source": "backups/src-before/engine/sets/casino.tsx",
+    "relative": "src\\engine\\sets\\casino.tsx",
+    "sha256": "d01b8abed1b9d3ea6f4f9bf16a59218cd47c631bfab73551e2cfd0918ea5e5df"
+  },
+  {
+    "source": "backups/src-before/engine/sets/classroom.tsx",
+    "relative": "src\\engine\\sets\\classroom.tsx",
+    "sha256": "7e4eed515b48f03aeeaa37b33ebacc3dc907a9836f117f45c21929f8ed380c9d"
+  },
+  {
+    "source": "backups/src-before/engine/sets/kitchen.tsx",
+    "relative": "src\\engine\\sets\\kitchen.tsx",
+    "sha256": "07e461e586fc19efae98d08f6332e6bdc61d6f9505350dae827556152a0961c9"
+  },
+  {
+    "source": "backups/src-before/engine/sets/rooftop.tsx",
+    "relative": "src\\engine\\sets\\rooftop.tsx",
+    "sha256": "80233e13d8a856780857ade02504a613c30b9cfe832071f0af00010f30f8872d"
+  },
+  {
+    "source": "backups/src-before/engine/sets/schematic.tsx",
+    "relative": "src\\engine\\sets\\schematic.tsx",
+    "sha256": "d637e3cc2dd0cfc42e2f8157b82f8b46c6377e13b16e6681d98c55185aa53c15"
+  },
+  {
+    "source": "backups/src-before/engine/sets/stairwell.tsx",
+    "relative": "src\\engine\\sets\\stairwell.tsx",
+    "sha256": "1f70dfac5fefefe64c373444933e4dd94329763df31f899169499c6f114e8f7b"
+  },
+  {
+    "source": "backups/src-before/engine/sets/street.tsx",
+    "relative": "src\\engine\\sets\\street.tsx",
+    "sha256": "0a9bd39419865760013d84b8cce1ad22a18f4666cfd4cf8ea7bf08bb42798cbe"
+  },
+  {
+    "source": "backups/src-before/engine/sets/study.tsx",
+    "relative": "src\\engine\\sets\\study.tsx",
+    "sha256": "2c364c1ca1aae94a2b52151393ea0c7a96137806a8fd5fa4d30addc1ac131f1e"
+  }
+]

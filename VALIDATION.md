@@ -1,3 +1,28 @@
+# Revisão1.3.0 — evidências atuais
+
+- PASS: inicialização/restauração em projeto separado, com6 verificações de proteção/integridade e três MP4s idênticos byte a byte. Todos os WAVs empacotados em FLAC restauram o PCM original; float permanece WAV.
+- PASS: TypeScript, auditoria da composição de2037quadros e preflight de atuação/oclusão; regressão com1587quadros/4761SVGs e52fontes de baseline preservadas.
+- PASS: render real pelo novo render.cjs portátil: préviaA,240quadros/8s/540×960, decode completo. Não foi repetido um render completo novo nesta atualização: o MP4 completo existente foi empacotado e validado novamente.
+- PASS: MP4 aprovado de67,9s,2037quadros,1080×1920/30,H264High/AAC48k,−14,53LUFS/−1,14dBTP; áudio AAC/PCM idêntico. O código novo qa_precision.py executou essa verificação.
+- PASS:16verificações de voz com transporte simulado: generateContent/legado, separação de direção, WAV real da fixture, cache, teto persistente incluindo falhas, lock de fila e parada em429. Zero chamadas externas de voz. Disponibilidade atual de modelo não certificada.
+- PASS:40checks do renderer de olhos e10casos de compatibilidade;8checks do leitor offline de referência, repetidos nesta edição.
+- PASS: validador oficial de skill, checagem de sintaxe Python, manifestos/CRC e varredura de credenciais/paths pessoais nos arquivos distribuídos. Ver validation.json para detalhes.
+- Pacote de mídias:122.937.190→84.584.648bytes,31,2%menor. O ganho é do empacotamento/FLAC; não houve perda por transcodificação dos MP4s. Mídia completa é asset de release, não blob no histórico Git.
+- Não houve novas imagens analisadas nesta atualização nem escuta/visão subjetiva integral, instalação limpa de rede, novo ASR real ou teste Linux/macOS. A revisão visual do curta pertence ao relatório de produção anterior; não é reapresentada como nova inspeção.
+
+## Histórico anterior — escopo de cada edição
+
+# Revisão 1.2.0 — referência e identidade dos olhos
+
+- PASS: 40 verificações estruturais do renderer real, incluindo presets Sharingan/Byakugan/Rinnegan, branco sem íris, piscar, tomoe, venda e IDs SVG únicos. Dez casos do renderer natural permaneceram idênticos ao anterior na saída SVG.
+- PASS: oito verificações do leitor de referência, com extração local real de vídeo sintético, áudio, limites de amostras, proteção de destino e integridade da origem.
+- PASS: ASR local real de um trecho em inglês com detecção automática: idioma en, 15 palavras. Nenhuma API.
+- PASS: TypeScript e validador oficial de skill.
+- PASS: demo executável real, 93 quadros/3,1 s, 1080×1920/30 fps, áudio 48 kHz; repetição com zero quadros novos e QA em cache.
+- Não houve novas imagens abertas, revisão visual dos novos presets, escuta integral, instalação limpa por rede ou certificação de fidelidade artística. Os presets são vetoriais 2.5D; não constituem um renderer 3D equivalente ao vídeo de referência. Não foi produzido um novo curta nesta atualização.
+
+## Histórico anterior (escopo próprio de cada edição)
+
 # Revisão 1.1.0 — testes desta edição
 
 - Contrato obrigatório para preservar o motor, adaptar cenas e abrir cada vídeo com premissa e contexto; parte visível em séries.

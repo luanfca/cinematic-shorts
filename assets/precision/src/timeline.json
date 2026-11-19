@@ -1,0 +1,362 @@
+{
+  "seconds": 115.73333333333333,
+  "segments": [
+    {
+      "oldStart": 0,
+      "oldEnd": 1,
+      "start": 0,
+      "end": 0.65,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 1,
+      "oldEnd": 6.36,
+      "start": 0.65,
+      "end": 6.010000000000001,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 6.36,
+      "oldEnd": 7.3,
+      "start": 6.010000000000001,
+      "end": 6.660000000000001,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 7.3,
+      "oldEnd": 9.5,
+      "start": 6.660000000000001,
+      "end": 8.860000000000001,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 9.5,
+      "oldEnd": 9.6,
+      "start": 8.860000000000001,
+      "end": 8.96,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 9.6,
+      "oldEnd": 11.9,
+      "start": 8.96,
+      "end": 11.260000000000002,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 11.9,
+      "oldEnd": 13.3,
+      "start": 11.260000000000002,
+      "end": 11.810000000000002,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 13.3,
+      "oldEnd": 16.12,
+      "start": 11.810000000000002,
+      "end": 14.630000000000003,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 16.12,
+      "oldEnd": 18.6,
+      "start": 14.630000000000003,
+      "end": 15.630000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 18.6,
+      "oldEnd": 26.58,
+      "start": 15.630000000000003,
+      "end": 23.610000000000003,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 26.58,
+      "oldEnd": 27.3,
+      "start": 23.610000000000003,
+      "end": 23.930000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 27.3,
+      "oldEnd": 30.94,
+      "start": 23.930000000000003,
+      "end": 27.570000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 30.94,
+      "oldEnd": 33.1,
+      "start": 27.570000000000004,
+      "end": 28.270000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 33.1,
+      "oldEnd": 35.71,
+      "start": 28.270000000000003,
+      "end": 30.880000000000003,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 35.71,
+      "oldEnd": 37.0,
+      "start": 30.880000000000003,
+      "end": 31.380000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 37.0,
+      "oldEnd": 37.6,
+      "start": 31.380000000000003,
+      "end": 31.980000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 37.6,
+      "oldEnd": 38.4,
+      "start": 31.980000000000004,
+      "end": 32.330000000000005,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 38.4,
+      "oldEnd": 42.63,
+      "start": 32.330000000000005,
+      "end": 36.56,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 42.63,
+      "oldEnd": 45.6,
+      "start": 36.56,
+      "end": 37.660000000000004,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 45.6,
+      "oldEnd": 47.82,
+      "start": 37.660000000000004,
+      "end": 39.88,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 47.82,
+      "oldEnd": 49.3,
+      "start": 39.88,
+      "end": 40.38,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 49.3,
+      "oldEnd": 51.459999999999994,
+      "start": 40.38,
+      "end": 42.540000000000006,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 51.459999999999994,
+      "oldEnd": 52.2,
+      "start": 42.540000000000006,
+      "end": 42.790000000000006,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 52.2,
+      "oldEnd": 53.76,
+      "start": 42.790000000000006,
+      "end": 44.35000000000001,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 53.76,
+      "oldEnd": 54.4,
+      "start": 44.35000000000001,
+      "end": 44.60000000000001,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 54.4,
+      "oldEnd": 56.39,
+      "start": 44.60000000000001,
+      "end": 46.59000000000001,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 56.39,
+      "oldEnd": 57.5,
+      "start": 46.59000000000001,
+      "end": 46.94000000000001,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 57.5,
+      "oldEnd": 59.12,
+      "start": 46.94000000000001,
+      "end": 48.56000000000001,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 59.12,
+      "oldEnd": 70.8,
+      "start": 48.56000000000001,
+      "end": 57.360000000000014,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 70.8,
+      "oldEnd": 74.76,
+      "start": 57.360000000000014,
+      "end": 61.320000000000014,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 74.76,
+      "oldEnd": 89.6,
+      "start": 61.320000000000014,
+      "end": 69.82000000000002,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 89.6,
+      "oldEnd": 90.98,
+      "start": 69.82000000000002,
+      "end": 71.20000000000002,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 90.98,
+      "oldEnd": 93,
+      "start": 71.20000000000002,
+      "end": 71.90000000000002,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 93,
+      "oldEnd": 94.61,
+      "start": 71.90000000000002,
+      "end": 73.51000000000002,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 94.61,
+      "oldEnd": 96.6,
+      "start": 73.51000000000002,
+      "end": 74.21000000000002,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 96.6,
+      "oldEnd": 99.96,
+      "start": 74.21000000000002,
+      "end": 77.57000000000002,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 99.96,
+      "oldEnd": 103.2,
+      "start": 77.57000000000002,
+      "end": 78.47000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 103.2,
+      "oldEnd": 105.04,
+      "start": 78.47000000000003,
+      "end": 80.31000000000003,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 105.04,
+      "oldEnd": 107,
+      "start": 80.31000000000003,
+      "end": 81.01000000000003,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 107,
+      "oldEnd": 109.22,
+      "start": 81.01000000000003,
+      "end": 83.23000000000003,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 109.22,
+      "oldEnd": 109.6,
+      "start": 83.23000000000003,
+      "end": 83.43000000000004,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 109.6,
+      "oldEnd": 111.28,
+      "start": 83.43000000000004,
+      "end": 85.11000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 111.28,
+      "oldEnd": 112,
+      "start": 85.11000000000004,
+      "end": 85.41000000000004,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 112,
+      "oldEnd": 115.25,
+      "start": 85.41000000000004,
+      "end": 88.66000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 115.25,
+      "oldEnd": 124.9,
+      "start": 88.66000000000004,
+      "end": 96.06000000000004,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 124.9,
+      "oldEnd": 128.94,
+      "start": 96.06000000000004,
+      "end": 100.10000000000005,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 128.94,
+      "oldEnd": 129.5,
+      "start": 100.10000000000005,
+      "end": 100.45000000000005,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 129.5,
+      "oldEnd": 133.82,
+      "start": 100.45000000000005,
+      "end": 104.77000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 133.82,
+      "oldEnd": 135.2,
+      "start": 104.77000000000004,
+      "end": 105.42000000000004,
+      "kind": "attention"
+    },
+    {
+      "oldStart": 135.2,
+      "oldEnd": 139.79999999999998,
+      "start": 105.42000000000004,
+      "end": 110.02000000000004,
+      "kind": "dialogue"
+    },
+    {
+      "oldStart": 139.79999999999998,
+      "oldEnd": 150,
+      "start": 110.02000000000004,
+      "end": 115.73333333333333,
+      "kind": "choice"
+    }
+  ]
+}

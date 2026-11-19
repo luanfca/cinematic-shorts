@@ -2,7 +2,8 @@
 import argparse, hashlib, json, re
 from pathlib import Path
 
-def build(script, max_chars=2500, model=None):
+def build(script, max_chars=2500, model=None, api='interactions'):
+    if api not in ['interactions','generate-content']:raise ValueError('Unknown Gemini API dialect')
     if max_chars < 100:
         raise ValueError('max_chars must be >=100; it is an editorial cap, not a provider limit')
     groups = {}
@@ -23,7 +24,11 @@ def build(script, max_chars=2500, model=None):
         batches = groups.setdefault(key, [[]])
         if sum(len(x['text']) for x in batches[-1])+len(text)>max_chars:
             batches.append([])
-        batches[-1].append({'id':line['id'],'text':text,'style':line.get('style','Natural Brazilian Portuguese.')})
+        tags=re.findall(r'<([^>]+)>',line['text'])
+        style=line.get('style','Natural Brazilian Portuguese.')
+        if tags:style+=' Direction only, never spoken: '+', '.join(tags)+'.'
+        if line.get('emotion'):style+=' Emotional intention: '+str(line['emotion'])+'.'
+        batches[-1].append({'id':line['id'],'text':text,'style':style})
     result=[]
     role_counts={}
     for (role,voice,selected),batches in groups.items():
@@ -33,15 +38,18 @@ def build(script, max_chars=2500, model=None):
             body={'model':selected,'input':[{'type':'user_input','content':[
                 {'type':'text','text':line['text'],'annotations':[{'type':'speech_metadata','style':line['style']}]} for line in lines
             ]}],'response_format':{'type':'audio','mime_type':'audio/wav'},'generation_config':{'speech_config':[{'voice':voice}]}}
+            if api=='generate-content':
+                prompt='Speak in Brazilian Portuguese. Directions are performance metadata, never spoken. Speak only the exact speech text, in order, with natural pauses. Do not read labels or add words.\n\n'+'\n\n'.join('Direction: '+line['style']+'\nSpeech text: '+line['text'] for line in lines)
+                body={'api':'generate-content','model':selected,'contents':[{'role':'user','parts':[{'text':prompt}]}],'generationConfig':{'responseModalities':['AUDIO'],'speechConfig':{'voiceConfig':{'prebuiltVoiceConfig':{'voiceName':voice}}}}}
             request_key=hashlib.sha256(json.dumps(body,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
             result.append({'line':f'take-{role}-{number:02}','lineIds':[x['id'] for x in lines],'requestKey':request_key,'body':body})
     return result
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--project',required=True);p.add_argument('--script',required=True);p.add_argument('--output',required=True);p.add_argument('--max-chars',type=int,default=2500);p.add_argument('--model');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--project',required=True);p.add_argument('--script',required=True);p.add_argument('--output',required=True);p.add_argument('--max-chars',type=int,default=2500);p.add_argument('--model');p.add_argument('--api',choices=['generate-content','interactions'],default='generate-content');a=p.parse_args()
     root=Path(a.project).resolve();out=Path(a.output).resolve()
     if not out.is_relative_to(root):raise ValueError('Output must stay inside the production project')
-    script=json.loads(Path(a.script).read_text(encoding='utf-8-sig'));pack=build(script,a.max_chars,a.model)
+    script=json.loads(Path(a.script).read_text(encoding='utf-8-sig'));pack=build(script,a.max_chars,a.model,a.api)
     out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(pack,ensure_ascii=False,indent=2),encoding='utf8')
     print(json.dumps({'requests':len(pack),'lines':sum(len(x['lineIds']) for x in pack),'externalCalls':0,'output':str(out),'next':'Inspect styles/model and obtain provider authorization before generation'},ensure_ascii=False))
 if __name__=='__main__':main()

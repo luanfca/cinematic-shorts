@@ -20,3 +20,5 @@ export * from './sets/schematic';
 export * from './sets/bedroom';
 export * from './sets/casino';
 export * from './sets/street';
+
+export * from './eyes';
